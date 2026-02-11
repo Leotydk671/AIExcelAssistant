@@ -1,0 +1,354 @@
+[gd_scene load_steps=30 format=3 uid="uid://d326vj4vjmht2"]
+
+[ext_resource type="Script" uid="uid://0m1udkm2jeq6" path="res://Scripts/WorkSpace.cs" id="1_284f2"]
+[ext_resource type="StyleBox" uid="uid://dgvy0b3tb8n8v" path="res://Theme/InputBackground.tres" id="2_ht42q"]
+[ext_resource type="StyleBox" uid="uid://c6t6r3kxh1701" path="res://Theme/ButtonLabelSytle.tres" id="2_recuo"]
+[ext_resource type="Script" uid="uid://dkt2wckr686vs" path="res://Scripts/EditableArea.cs" id="2_wueap"]
+[ext_resource type="Texture2D" uid="uid://dyswg1dj3xish" path="res://Assets/发送.png" id="3_igevy"]
+[ext_resource type="StyleBox" uid="uid://fct3tetxc64l" path="res://Theme/InputButton/QuestionButtonNorm.tres" id="3_sgc2e"]
+[ext_resource type="Texture2D" uid="uid://7mujetltrbo5" path="res://Assets/SaveIcon.png" id="4_2ytjb"]
+[ext_resource type="StyleBox" uid="uid://c53g3mbsjkvxo" path="res://Theme/InputButton/QuestionButtonPressed.tres" id="4_fbxiw"]
+[ext_resource type="Theme" uid="uid://bjpa8r7lr6786" path="res://Theme/TooltipTheme.tres" id="4_w6sms"]
+[ext_resource type="Texture2D" uid="uid://bmgd320gactpt" path="res://Assets/重命名.png" id="5_2ytjb"]
+[ext_resource type="StyleBox" uid="uid://b63bolfbfbg24" path="res://Theme/InputButton/QuestionButtonHover.tres" id="5_6wxcj"]
+[ext_resource type="Texture2D" uid="uid://bnx6ahfd3a50g" path="res://Assets/删除.png" id="6_igevy"]
+[ext_resource type="StyleBox" uid="uid://c1ib3e1mwboao" path="res://Theme/InputButton/SaveButtonNorm.tres" id="7_obye0"]
+[ext_resource type="StyleBox" uid="uid://bxdepa18u1n8f" path="res://Theme/InputButton/SaveButtonPressed.tres" id="8_6wxcj"]
+[ext_resource type="StyleBox" uid="uid://cchqmvdd0ju2l" path="res://Theme/InputButton/RenameButtonNorm.tres" id="9_6yxsr"]
+[ext_resource type="StyleBox" uid="uid://dpguv2fbq1ha6" path="res://Theme/InputButton/SaveButtonHover.tres" id="9_obye0"]
+[ext_resource type="StyleBox" uid="uid://cjxeb0lxsoj85" path="res://Theme/InputButton/DeleteButtonNorm.tres" id="11_rppoy"]
+[ext_resource type="StyleBox" uid="uid://2jul6eesdcmk" path="res://Theme/InputButton/RenameButtonPressed.tres" id="12_6yxsr"]
+[ext_resource type="StyleBox" uid="uid://b0e17ns5q3euc" path="res://Theme/InputButton/RenameButtonHover.tres" id="13_rppoy"]
+[ext_resource type="StyleBox" uid="uid://b2ehgsyjgkpkw" path="res://Theme/InputButton/DeleteButtonPressed.tres" id="16_ohgax"]
+[ext_resource type="StyleBox" uid="uid://b6cttclcniykj" path="res://Theme/InputButton/DeleteButtonHover.tres" id="17_284f2"]
+[ext_resource type="Script" uid="uid://2ht2fwcaqet3" path="res://Scripts/FloatMenu.cs" id="20_284f2"]
+[ext_resource type="Texture2D" uid="uid://ca7msy84btmx" path="res://Assets/叉号.png" id="22_jvjad"]
+[ext_resource type="Script" uid="uid://cwdamldoa8toe" path="res://Scripts/StepRenameWindow.cs" id="23_w6sms"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ht42q"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 8
+border_width_top = 4
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0, 0, 0, 1)
+corner_radius_bottom_right = 14
+corner_radius_bottom_left = 14
+expand_margin_bottom = 1.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_284f2"]
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.116126575, 0.116126604, 0.1161265, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ghi3w"]
+bg_color = Color(0.37875214, 0.4504909, 0.5146223, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.01894023, 0.018940238, 0.018940205, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 6.0
+expand_margin_top = 38.0
+expand_margin_right = 6.0
+expand_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yw7aj"]
+bg_color = Color(0.48418278, 0.53253347, 0.5631785, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0trgi"]
+bg_color = Color(0.23151812, 0.23151812, 0.23151815, 1)
+
+[node name="WorkSpace" type="Control" node_paths=PackedStringArray("FloatOptionMenu", "EditableContainer")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 61.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_284f2")
+FloatOptionMenu = NodePath("FloatMenu")
+EditableContainer = NodePath("MainContainer/EditableArea")
+HoverColor = Color(0.61960787, 0.61960787, 0.61960787, 0.39215687)
+SelectedOpenColor = Color(0.6918337, 0.42665836, 0.2813597, 0.3019608)
+metadata/_custom_type_script = "uid://dwvwnkf7y4djd"
+
+[node name="MainContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 29.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 2
+
+[node name="ToggleButton" type="Button" parent="MainContainer"]
+custom_minimum_size = Vector2(20, 635)
+layout_mode = 2
+
+[node name="ListPanel" type="PanelContainer" parent="MainContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+mouse_filter = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MainContainer/ListPanel"]
+layout_mode = 2
+
+[node name="LabelContainer" type="VBoxContainer" parent="MainContainer/ListPanel/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="EditableArea" type="CenterContainer" parent="MainContainer" node_paths=PackedStringArray("StepNameLabel", "QuestionButton", "SaveButton", "RenameButton", "DeleteButton", "ContentTextEdit", "RenameWindow")]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("2_wueap")
+StepNameLabel = NodePath("VBoxContainer/HBoxContainer/Label")
+QuestionButton = NodePath("VBoxContainer/HBoxContainer/QuestionButton")
+SaveButton = NodePath("VBoxContainer/HBoxContainer/SaveButton")
+RenameButton = NodePath("VBoxContainer/HBoxContainer/RenameButton")
+DeleteButton = NodePath("VBoxContainer/HBoxContainer/DeleteButton")
+ContentTextEdit = NodePath("VBoxContainer/PanelContainer/ContentTextEdit")
+RenameWindow = NodePath("../../StepRenameWindow")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainContainer/EditableArea"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MainContainer/EditableArea/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Label" type="Label" parent="MainContainer/EditableArea/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(160, 55)
+layout_mode = 2
+size_flags_vertical = 1
+mouse_filter = 1
+theme_override_colors/font_color = Color(0.03137255, 0.03137255, 0.03137255, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = ExtResource("2_recuo")
+vertical_alignment = 1
+clip_text = true
+
+[node name="Spacer1" type="Control" parent="MainContainer/EditableArea/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+mouse_filter = 1
+
+[node name="QuestionButton" type="Button" parent="MainContainer/EditableArea/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(160, 40)
+layout_mode = 2
+size_flags_vertical = 8
+focus_mode = 0
+theme = ExtResource("4_w6sms")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 0.5019608)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = ExtResource("3_sgc2e")
+theme_override_styles/pressed = ExtResource("4_fbxiw")
+theme_override_styles/hover = ExtResource("5_6wxcj")
+theme_override_styles/disabled = ExtResource("3_sgc2e")
+action_mode = 0
+text = "发送"
+icon = ExtResource("3_igevy")
+clip_text = true
+expand_icon = true
+
+[node name="Spacer" type="Control" parent="MainContainer/EditableArea/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+mouse_filter = 1
+
+[node name="SaveButton" type="Button" parent="MainContainer/EditableArea/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+size_flags_vertical = 8
+tooltip_text = "Ctrl+S"
+focus_mode = 0
+theme = ExtResource("4_w6sms")
+theme_override_colors/font_color = Color(0.15247634, 0.15247652, 0.15247646, 1)
+theme_override_colors/font_pressed_color = Color(0.03137255, 0.03137255, 0.03137255, 1)
+theme_override_colors/font_hover_color = Color(0.03238219, 0.03238219, 0.03238219, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.03137255, 0.03137255, 0.03137255, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 0.5019608)
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = ExtResource("7_obye0")
+theme_override_styles/pressed = ExtResource("8_6wxcj")
+theme_override_styles/hover = ExtResource("9_obye0")
+theme_override_styles/disabled = ExtResource("7_obye0")
+text = "存放"
+icon = ExtResource("4_2ytjb")
+expand_icon = true
+
+[node name="RenameButton" type="Button" parent="MainContainer/EditableArea/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(105, 40)
+layout_mode = 2
+size_flags_vertical = 8
+tooltip_text = "Ctrl+R"
+focus_mode = 0
+theme = ExtResource("4_w6sms")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.03137255, 0.03137255, 0.03137255, 1)
+theme_override_colors/font_hover_color = Color(0.03137255, 0.03137255, 0.03137255, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.03137255, 0.03137255, 0.03137255, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 0.5019608)
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = ExtResource("9_6yxsr")
+theme_override_styles/pressed = ExtResource("12_6yxsr")
+theme_override_styles/hover = ExtResource("13_rppoy")
+theme_override_styles/disabled = ExtResource("9_6yxsr")
+text = "重命名"
+icon = ExtResource("5_2ytjb")
+expand_icon = true
+
+[node name="DeleteButton" type="Button" parent="MainContainer/EditableArea/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+size_flags_vertical = 8
+focus_mode = 0
+theme_override_colors/font_color = Color(0.041507095, 0.04150725, 0.041507132, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 0.5019608)
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = ExtResource("11_rppoy")
+theme_override_styles/pressed = ExtResource("16_ohgax")
+theme_override_styles/hover = ExtResource("17_284f2")
+theme_override_styles/disabled = ExtResource("11_rppoy")
+text = "删除"
+icon = ExtResource("6_igevy")
+expand_icon = true
+
+[node name="PanelContainer" type="PanelContainer" parent="MainContainer/EditableArea/VBoxContainer"]
+custom_minimum_size = Vector2(900, 580)
+layout_mode = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_ht42q")
+
+[node name="ContentTextEdit" type="TextEdit" parent="MainContainer/EditableArea/VBoxContainer/PanelContainer"]
+show_behind_parent = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 1
+theme_override_colors/caret_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/caret_width = 3
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = ExtResource("2_ht42q")
+wrap_mode = 1
+scroll_fit_content_width = true
+caret_blink = true
+
+[node name="FloatMenu" type="PanelContainer" parent="." node_paths=PackedStringArray("OpenButton", "RenameButton", "DeleteButton", "RenameWindow")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -47.5
+offset_top = -58.0
+offset_right = 47.5
+offset_bottom = 58.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_284f2")
+script = ExtResource("20_284f2")
+OpenButton = NodePath("FloatOption/OpenButton")
+RenameButton = NodePath("FloatOption/RenameButton")
+DeleteButton = NodePath("FloatOption/DeleteButton")
+RenameWindow = NodePath("../StepRenameWindow")
+
+[node name="FloatOption" type="VBoxContainer" parent="FloatMenu"]
+custom_minimum_size = Vector2(95, 0)
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="OpenButton" type="Button" parent="FloatMenu/FloatOption"]
+custom_minimum_size = Vector2(80, 25)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "打开"
+
+[node name="RenameButton" type="Button" parent="FloatMenu/FloatOption"]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "重命名"
+
+[node name="DeleteButton" type="Button" parent="FloatMenu/FloatOption"]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "删除"
+
+[node name="StepRenameWindow" type="Window" parent="." node_paths=PackedStringArray("RenameLineEdit", "RenameConfirmButton", "workSpaceNode")]
+oversampling_override = 1.0
+title = "重命名项目"
+position = Vector2i(590, 200)
+size = Vector2i(260, 100)
+visible = false
+transient = true
+exclusive = true
+unresizable = true
+theme_override_colors/title_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/title_font_size = 19
+theme_override_icons/close = ExtResource("22_jvjad")
+theme_override_styles/embedded_border = SubResource("StyleBoxFlat_ghi3w")
+script = ExtResource("23_w6sms")
+RenameLineEdit = NodePath("PanelContainer/VBoxContainer/LineEdit")
+RenameConfirmButton = NodePath("PanelContainer/VBoxContainer/Button")
+workSpaceNode = NodePath("..")
+
+[node name="PanelContainer" type="PanelContainer" parent="StepRenameWindow"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_yw7aj")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="StepRenameWindow/PanelContainer"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="LineEdit" type="LineEdit" parent="StepRenameWindow/PanelContainer/VBoxContainer"]
+custom_minimum_size = Vector2(220, 46)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 10
+theme_override_colors/font_color = Color(0.86323917, 0.8632396, 0.86323935, 1)
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxFlat_0trgi")
+placeholder_text = "请输入"
+alignment = 1
+max_length = 15
+
+[node name="Button" type="Button" parent="StepRenameWindow/PanelContainer/VBoxContainer"]
+custom_minimum_size = Vector2(68, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+text = "确定"

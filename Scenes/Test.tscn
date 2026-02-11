@@ -1,0 +1,277 @@
+[gd_scene load_steps=22 format=3 uid="uid://bb81psq2vlrfo"]
+
+[ext_resource type="Script" uid="uid://ckqbiawas3mp1" path="res://Scripts/Manager.cs" id="1_gxb1y"]
+[ext_resource type="PackedScene" uid="uid://d326vj4vjmht2" path="res://Scenes/FoldableLabelList.tscn" id="2_0dy5s"]
+[ext_resource type="StyleBox" uid="uid://db3qx2jb4y53d" path="res://Theme/GlobalBackground.tres" id="2_f2nln"]
+[ext_resource type="PackedScene" uid="uid://dcgt5hl4ojp74" path="res://Scenes/Menu.tscn" id="3_0dy5s"]
+[ext_resource type="Script" uid="uid://da3spi6uwyg8e" path="res://Scripts/SyncManager.cs" id="3_c5xim"]
+[ext_resource type="StyleBox" uid="uid://bbvrfod24d4la" path="res://Theme/CereatLabelButton.tres" id="5_mma61"]
+[ext_resource type="StyleBox" uid="uid://xrsg4vycimjs" path="res://Theme/CereatLabelButtonPressed.tres" id="6_ki7sg"]
+[ext_resource type="Script" uid="uid://bykjqg6ai5387" path="res://Scripts/TopControl.cs" id="6_rxb08"]
+[ext_resource type="StyleBox" uid="uid://gibb865lhqw" path="res://Theme/CereatLabelButtonHover.tres" id="7_rxb08"]
+[ext_resource type="Script" uid="uid://btb78ngwr3k2k" path="res://Scripts/ProjectSystem/ProjectManager.cs" id="8_ki7sg"]
+[ext_resource type="Theme" uid="uid://bjpa8r7lr6786" path="res://Theme/TooltipTheme.tres" id="10_8d4ee"]
+[ext_resource type="Texture2D" uid="uid://ca7msy84btmx" path="res://Assets/叉号.png" id="10_kq4yt"]
+[ext_resource type="Texture2D" uid="uid://df23hnnfaeokl" path="res://Assets/红色叹号.png" id="10_wjxug"]
+[ext_resource type="Script" uid="uid://c5wu4laiwuhn" path="res://Scripts/ProjectRenameWindow.cs" id="11_rarx8"]
+[ext_resource type="Script" uid="uid://to6a88m1317v" path="res://Scripts/NoticeRect.cs" id="12_3la1u"]
+[ext_resource type="Texture2D" uid="uid://c7nkbi5v6y70a" path="res://Assets/excel.png" id="14_b07cf"]
+[ext_resource type="StyleBox" uid="uid://d20hfqxpbwruw" path="res://Theme/FileButton.tres" id="15_x8mav"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kq4yt"]
+bg_color = Color(0.2748285, 0.39522368, 0.465203, 1)
+border_width_left = 2
+border_width_right = 2
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rarx8"]
+bg_color = Color(0.37875214, 0.4504909, 0.5146223, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.01894023, 0.018940238, 0.018940205, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 6.0
+expand_margin_top = 38.0
+expand_margin_right = 6.0
+expand_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wjxug"]
+bg_color = Color(0.48418278, 0.53253347, 0.5631785, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8d4ee"]
+bg_color = Color(0.23151812, 0.23151812, 0.23151815, 1)
+
+[node name="Manager" type="Control" node_paths=PackedStringArray("_workspace")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gxb1y")
+_workspace = NodePath("PanelContainer/WorkSpace")
+
+[node name="ProjectManager" type="Node" parent="."]
+script = ExtResource("8_ki7sg")
+
+[node name="SyncManager" type="Node" parent="." node_paths=PackedStringArray("_loadingUI")]
+script = ExtResource("3_c5xim")
+_loadingUI = NodePath("Control")
+metadata/_custom_type_script = "uid://da3spi6uwyg8e"
+
+[node name="Control" type="Control" parent="SyncManager"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_default_cursor_shape = 4
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = ExtResource("2_f2nln")
+
+[node name="WorkSpace" parent="PanelContainer" instance=ExtResource("2_0dy5s")]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+mouse_filter = 1
+
+[node name="Menu" parent="." instance=ExtResource("3_0dy5s")]
+layout_mode = 1
+mouse_filter = 1
+
+[node name="MenuSystem" parent="Menu" index="0" node_paths=PackedStringArray("ProjectselectWindow", "RenameWindow")]
+ProjectselectWindow = NodePath("ProjectSelectionWindow")
+RenameWindow = NodePath("../../RenameWindow")
+
+[node name="ProjectSelectionWindow" parent="Menu/MenuSystem" index="0"]
+transient = true
+exclusive = true
+
+[node name="TopControl" type="Control" parent="." node_paths=PackedStringArray("_workspace", "_addLabelButton", "_projectLabel", "_renameWindow", "_fileButton")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 357.0
+offset_bottom = -644.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("6_rxb08")
+_workspace = NodePath("../PanelContainer/WorkSpace")
+_addLabelButton = NodePath("Button")
+_projectLabel = NodePath("Label")
+_renameWindow = NodePath("../RenameWindow")
+_fileButton = NodePath("FileButton")
+
+[node name="Button" type="Button" parent="TopControl"]
+z_index = 5
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -440.0
+offset_top = -29.0
+offset_right = -336.0
+offset_bottom = 32.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.12156863, 0.12156863, 0.12156863, 1)
+theme_override_colors/font_hover_color = Color(0.12156863, 0.12156863, 0.12156863, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.12156863, 0.12156863, 0.12156863, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = ExtResource("5_mma61")
+theme_override_styles/pressed = ExtResource("6_ki7sg")
+theme_override_styles/hover = ExtResource("7_rxb08")
+text = "新建步骤"
+
+[node name="Label" type="Label" parent="TopControl"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -251.0
+offset_top = -27.0
+offset_right = 130.0
+offset_bottom = 33.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_colors/font_color = Color(0.7385896, 0.7385896, 0.7385896, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_kq4yt")
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="TextureRect" type="TextureRect" parent="TopControl"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 336.0
+offset_top = -20.0
+offset_right = 386.0
+offset_bottom = 30.0
+grow_horizontal = 2
+grow_vertical = 2
+tooltip_text = "未保存"
+theme = ExtResource("10_8d4ee")
+texture = ExtResource("10_wjxug")
+expand_mode = 1
+script = ExtResource("12_3la1u")
+
+[node name="FileButton" type="Button" parent="TopControl"]
+custom_minimum_size = Vector2(80, 55)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 153.5
+offset_top = -30.5
+offset_right = 289.5
+offset_bottom = 30.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1.1792034e-06, 0.33696225, 7.70092e-07, 1)
+theme_override_colors/font_pressed_color = Color(0, 0.3372549, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0.3372549, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0.3372549, 0, 1)
+theme_override_font_sizes/font_size = 23
+theme_override_icons/icon = ExtResource("14_b07cf")
+theme_override_styles/normal = ExtResource("15_x8mav")
+theme_override_styles/pressed = ExtResource("15_x8mav")
+theme_override_styles/hover = ExtResource("15_x8mav")
+theme_override_styles/hover_pressed = ExtResource("15_x8mav")
+text = "fd asdf asdf asdfa asdf asdf asdf asdf asdf asdf asdf asd "
+text_overrun_behavior = 3
+clip_text = true
+
+[node name="RenameWindow" type="Window" parent="." node_paths=PackedStringArray("RenameLineEdit", "RenameConfirmButton")]
+oversampling_override = 1.0
+title = "重命名项目"
+position = Vector2i(590, 200)
+size = Vector2i(260, 100)
+visible = false
+transient = true
+exclusive = true
+unresizable = true
+theme_override_colors/title_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/title_font_size = 19
+theme_override_icons/close = ExtResource("10_kq4yt")
+theme_override_styles/embedded_border = SubResource("StyleBoxFlat_rarx8")
+script = ExtResource("11_rarx8")
+RenameLineEdit = NodePath("PanelContainer/VBoxContainer/LineEdit")
+RenameConfirmButton = NodePath("PanelContainer/VBoxContainer/Button")
+
+[node name="PanelContainer" type="PanelContainer" parent="RenameWindow"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_wjxug")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="RenameWindow/PanelContainer"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="LineEdit" type="LineEdit" parent="RenameWindow/PanelContainer/VBoxContainer"]
+custom_minimum_size = Vector2(220, 46)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 10
+theme_override_colors/font_color = Color(0.86323917, 0.8632396, 0.86323935, 1)
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxFlat_8d4ee")
+placeholder_text = "请输入"
+alignment = 1
+max_length = 15
+
+[node name="Button" type="Button" parent="RenameWindow/PanelContainer/VBoxContainer"]
+custom_minimum_size = Vector2(68, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+text = "确定"
+
+[editable path="Menu"]

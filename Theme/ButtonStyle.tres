@@ -1,0 +1,15 @@
+[gd_resource type="StyleBox" script_class="StyleBoxLabel" load_steps=2 format=3 uid="uid://dkkivs6707asf"]
+
+[ext_resource type="Script" uid="uid://ba4f8d87f24s0" path="res://Scripts/StyleBoxLabel.cs" id="1_ao2od"]
+
+[resource]
+resource_local_to_scene = false
+resource_name = ""
+content_margin_left = -1.0
+content_margin_top = -1.0
+content_margin_right = -1.0
+content_margin_bottom = -1.0
+script = ExtResource("1_ao2od")
+CornerRadius = 9.047
+TopIndentDepth = 0.0
+metadata/_custom_type_script = "uid://ba4f8d87f24s0"

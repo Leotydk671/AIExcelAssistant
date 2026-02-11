@@ -1,0 +1,423 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "python >=3.9",
+    "python-dotenv",
+    "requests",
+    "tqdm"
+  ],
+  "extracted_package_dir": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\webdriver-manager-4.0.2-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/webdriver_manager-4.0.2.dist-info/INSTALLER",
+    "Lib/site-packages/webdriver_manager-4.0.2.dist-info/LICENSE",
+    "Lib/site-packages/webdriver_manager-4.0.2.dist-info/METADATA",
+    "Lib/site-packages/webdriver_manager-4.0.2.dist-info/RECORD",
+    "Lib/site-packages/webdriver_manager-4.0.2.dist-info/REQUESTED",
+    "Lib/site-packages/webdriver_manager-4.0.2.dist-info/WHEEL",
+    "Lib/site-packages/webdriver_manager-4.0.2.dist-info/direct_url.json",
+    "Lib/site-packages/webdriver_manager-4.0.2.dist-info/top_level.txt",
+    "Lib/site-packages/webdriver_manager/__init__.py",
+    "Lib/site-packages/webdriver_manager/chrome.py",
+    "Lib/site-packages/webdriver_manager/core/__init__.py",
+    "Lib/site-packages/webdriver_manager/core/archive.py",
+    "Lib/site-packages/webdriver_manager/core/config.py",
+    "Lib/site-packages/webdriver_manager/core/constants.py",
+    "Lib/site-packages/webdriver_manager/core/download_manager.py",
+    "Lib/site-packages/webdriver_manager/core/driver.py",
+    "Lib/site-packages/webdriver_manager/core/driver_cache.py",
+    "Lib/site-packages/webdriver_manager/core/file_manager.py",
+    "Lib/site-packages/webdriver_manager/core/http.py",
+    "Lib/site-packages/webdriver_manager/core/logger.py",
+    "Lib/site-packages/webdriver_manager/core/manager.py",
+    "Lib/site-packages/webdriver_manager/core/os_manager.py",
+    "Lib/site-packages/webdriver_manager/core/utils.py",
+    "Lib/site-packages/webdriver_manager/drivers/__init__.py",
+    "Lib/site-packages/webdriver_manager/drivers/chrome.py",
+    "Lib/site-packages/webdriver_manager/drivers/edge.py",
+    "Lib/site-packages/webdriver_manager/drivers/firefox.py",
+    "Lib/site-packages/webdriver_manager/drivers/ie.py",
+    "Lib/site-packages/webdriver_manager/drivers/opera.py",
+    "Lib/site-packages/webdriver_manager/firefox.py",
+    "Lib/site-packages/webdriver_manager/microsoft.py",
+    "Lib/site-packages/webdriver_manager/opera.py",
+    "Lib/site-packages/webdriver_manager/py.typed",
+    "Lib/site-packages/webdriver_manager/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/__pycache__/chrome.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/archive.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/config.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/constants.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/download_manager.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/driver.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/driver_cache.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/file_manager.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/http.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/logger.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/manager.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/os_manager.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/core/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/drivers/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/drivers/__pycache__/chrome.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/drivers/__pycache__/edge.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/drivers/__pycache__/firefox.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/drivers/__pycache__/ie.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/drivers/__pycache__/opera.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/__pycache__/firefox.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/__pycache__/microsoft.cpython-312.pyc",
+    "Lib/site-packages/webdriver_manager/__pycache__/opera.cpython-312.pyc"
+  ],
+  "fn": "webdriver-manager-4.0.2-pyhd8ed1ab_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\webdriver-manager-4.0.2-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "33fbd9d150f74e30fe71e699b1e5c9d1",
+  "name": "webdriver-manager",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\webdriver-manager-4.0.2-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/webdriver_manager-4.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/webdriver_manager-4.0.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f885d4d66ef7cbb5e54c14a89d6e611efb505a567329b1156aa1842b840093eb",
+        "sha256_in_prefix": "f885d4d66ef7cbb5e54c14a89d6e611efb505a567329b1156aa1842b840093eb",
+        "size_in_bytes": 11328
+      },
+      {
+        "_path": "site-packages/webdriver_manager-4.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "953cf3a31043749839246906fd940b099634c8ff947333477bff546441a9d128",
+        "sha256_in_prefix": "953cf3a31043749839246906fd940b099634c8ff947333477bff546441a9d128",
+        "size_in_bytes": 12484
+      },
+      {
+        "_path": "site-packages/webdriver_manager-4.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f5ae8afd9a1989da6f7b451ec7570eefba90e10dc5e9c574e5045c1e96793e7e",
+        "sha256_in_prefix": "f5ae8afd9a1989da6f7b451ec7570eefba90e10dc5e9c574e5045c1e96793e7e",
+        "size_in_bytes": 4463
+      },
+      {
+        "_path": "site-packages/webdriver_manager-4.0.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/webdriver_manager-4.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/webdriver_manager-4.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b362ee6e88e6b25ffe3a7068a673a770817ba22957acdda6dbba79dbd9f415ed",
+        "sha256_in_prefix": "b362ee6e88e6b25ffe3a7068a673a770817ba22957acdda6dbba79dbd9f415ed",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "site-packages/webdriver_manager-4.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9ab5b7ef62bb7809f465b319c42469dd3bce4a76802f17dff9c54173201a66a9",
+        "sha256_in_prefix": "9ab5b7ef62bb7809f465b319c42469dd3bce4a76802f17dff9c54173201a66a9",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/webdriver_manager/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d540fa4ca8352bf7f9ac8cc72d81efdd2bb7a369cfa5b123d65a39e4ce298ed3",
+        "sha256_in_prefix": "d540fa4ca8352bf7f9ac8cc72d81efdd2bb7a369cfa5b123d65a39e4ce298ed3",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/webdriver_manager/chrome.py",
+        "path_type": "hardlink",
+        "sha256": "40a441cc1a0610b10110e0361772cb70a2db7b0f4caf5af531c5e94fd00a63dc",
+        "sha256_in_prefix": "40a441cc1a0610b10110e0361772cb70a2db7b0f4caf5af531c5e94fd00a63dc",
+        "size_in_bytes": 1929
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/archive.py",
+        "path_type": "hardlink",
+        "sha256": "0e826b51b3a23f245790ea8473fb8568e934c74f9fba32f4dbe1b2d27859e9c2",
+        "sha256_in_prefix": "0e826b51b3a23f245790ea8473fb8568e934c74f9fba32f4dbe1b2d27859e9c2",
+        "size_in_bytes": 603
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/config.py",
+        "path_type": "hardlink",
+        "sha256": "17dbdf3e3df626a7d1b6334f15374aaa93c46e73689585ccc38033f1d22fbc1d",
+        "sha256_in_prefix": "17dbdf3e3df626a7d1b6334f15374aaa93c46e73689585ccc38033f1d22fbc1d",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/constants.py",
+        "path_type": "hardlink",
+        "sha256": "22bed76340debb5d93abea3bc745a5a46080572835788f8d9f15941fa0648049",
+        "sha256_in_prefix": "22bed76340debb5d93abea3bc745a5a46080572835788f8d9f15941fa0648049",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/download_manager.py",
+        "path_type": "hardlink",
+        "sha256": "308322901e981171a72d2590dacdc95b80d7cb91a070a62a409e6cf5b9fdef46",
+        "sha256_in_prefix": "308322901e981171a72d2590dacdc95b80d7cb91a070a62a409e6cf5b9fdef46",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/driver.py",
+        "path_type": "hardlink",
+        "sha256": "b7d7c6d4e72347eeb441dff093b860cf6cdbbc894824b805b1d162de86685431",
+        "sha256_in_prefix": "b7d7c6d4e72347eeb441dff093b860cf6cdbbc894824b805b1d162de86685431",
+        "size_in_bytes": 2800
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/driver_cache.py",
+        "path_type": "hardlink",
+        "sha256": "39f7b4392a921a516440afb864d61b42938bb36d8903a9ff1c5a25a35a4dd721",
+        "sha256_in_prefix": "39f7b4392a921a516440afb864d61b42938bb36d8903a9ff1c5a25a35a4dd721",
+        "size_in_bytes": 6182
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/file_manager.py",
+        "path_type": "hardlink",
+        "sha256": "a09b7d64ce05d03622bf5f866c6b5ce3255b132d28d3e0a38f8182d1fe3aeb95",
+        "sha256_in_prefix": "a09b7d64ce05d03622bf5f866c6b5ce3255b132d28d3e0a38f8182d1fe3aeb95",
+        "size_in_bytes": 3629
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/http.py",
+        "path_type": "hardlink",
+        "sha256": "b9912e365fc007a35afc4a40bd54e21c943f0d541dd46a0c6928c69a0b4aa9d1",
+        "sha256_in_prefix": "b9912e365fc007a35afc4a40bd54e21c943f0d541dd46a0c6928c69a0b4aa9d1",
+        "size_in_bytes": 1260
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/logger.py",
+        "path_type": "hardlink",
+        "sha256": "dacec54b1da33006a0ccf296e42dd4cbb8b0e078f381da78b8fe1da36e6b52d5",
+        "sha256_in_prefix": "dacec54b1da33006a0ccf296e42dd4cbb8b0e078f381da78b8fe1da36e6b52d5",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/manager.py",
+        "path_type": "hardlink",
+        "sha256": "7c7715799f1fb45f6ccab720405d6409e80e50ec18ad0987ccbc69cfc5cf351f",
+        "sha256_in_prefix": "7c7715799f1fb45f6ccab720405d6409e80e50ec18ad0987ccbc69cfc5cf351f",
+        "size_in_bytes": 1587
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/os_manager.py",
+        "path_type": "hardlink",
+        "sha256": "c9b86e02784a89c1168d2389239a3b90bbdf97c6722bb5a415f84a2b09242303",
+        "sha256_in_prefix": "c9b86e02784a89c1168d2389239a3b90bbdf97c6722bb5a415f84a2b09242303",
+        "size_in_bytes": 8883
+      },
+      {
+        "_path": "site-packages/webdriver_manager/core/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d894523bd9b2c409d48f7d1c421237c7f72c32ba9cb77d5e5fe1b41cdce1e97c",
+        "sha256_in_prefix": "d894523bd9b2c409d48f7d1c421237c7f72c32ba9cb77d5e5fe1b41cdce1e97c",
+        "size_in_bytes": 1985
+      },
+      {
+        "_path": "site-packages/webdriver_manager/drivers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/webdriver_manager/drivers/chrome.py",
+        "path_type": "hardlink",
+        "sha256": "4dc9fe913dff0436fd9dc1279160f223485eeaecd1f8e7cf61f4c16067ec1048",
+        "sha256_in_prefix": "4dc9fe913dff0436fd9dc1279160f223485eeaecd1f8e7cf61f4c16067ec1048",
+        "size_in_bytes": 4336
+      },
+      {
+        "_path": "site-packages/webdriver_manager/drivers/edge.py",
+        "path_type": "hardlink",
+        "sha256": "5d3b0ecd10a2d33e5ec2881f1f4bc0da6c8fb49932298b400f5edd36b0e08090",
+        "sha256_in_prefix": "5d3b0ecd10a2d33e5ec2881f1f4bc0da6c8fb49932298b400f5edd36b0e08090",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "site-packages/webdriver_manager/drivers/firefox.py",
+        "path_type": "hardlink",
+        "sha256": "0c3ce2de00ab5803d3d7c601d87847bb06116c7fd0d91bc7726573ceb4ac68cc",
+        "sha256_in_prefix": "0c3ce2de00ab5803d3d7c601d87847bb06116c7fd0d91bc7726573ceb4ac68cc",
+        "size_in_bytes": 1978
+      },
+      {
+        "_path": "site-packages/webdriver_manager/drivers/ie.py",
+        "path_type": "hardlink",
+        "sha256": "4fe301f24eef12eef73589e1debcb750f4ce8a54c3e4691fd5d1e8d9ff64b939",
+        "sha256_in_prefix": "4fe301f24eef12eef73589e1debcb750f4ce8a54c3e4691fd5d1e8d9ff64b939",
+        "size_in_bytes": 2696
+      },
+      {
+        "_path": "site-packages/webdriver_manager/drivers/opera.py",
+        "path_type": "hardlink",
+        "sha256": "6e402a5e29c7ba15abccdb7941f677380d4f6e8ace9a1c0bcb882c862c08d8ee",
+        "sha256_in_prefix": "6e402a5e29c7ba15abccdb7941f677380d4f6e8ace9a1c0bcb882c862c08d8ee",
+        "size_in_bytes": 1797
+      },
+      {
+        "_path": "site-packages/webdriver_manager/firefox.py",
+        "path_type": "hardlink",
+        "sha256": "4f8ba0938b2a27eabf83121f1f1199e764ab754156914f3a1ebbf59d0335b0f6",
+        "sha256_in_prefix": "4f8ba0938b2a27eabf83121f1f1199e764ab754156914f3a1ebbf59d0335b0f6",
+        "size_in_bytes": 1937
+      },
+      {
+        "_path": "site-packages/webdriver_manager/microsoft.py",
+        "path_type": "hardlink",
+        "sha256": "0342f24aff35c5006ecd72d1fcef7733d02f9c5994c38c5332139b4f900fe044",
+        "sha256_in_prefix": "0342f24aff35c5006ecd72d1fcef7733d02f9c5994c38c5332139b4f900fe044",
+        "size_in_bytes": 2836
+      },
+      {
+        "_path": "site-packages/webdriver_manager/opera.py",
+        "path_type": "hardlink",
+        "sha256": "025117c10b1a7cf770b1fb9c28ad58ebe070d9bced7e3f329c648be10a44047c",
+        "sha256_in_prefix": "025117c10b1a7cf770b1fb9c28ad58ebe070d9bced7e3f329c648be10a44047c",
+        "size_in_bytes": 2057
+      },
+      {
+        "_path": "site-packages/webdriver_manager/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/__pycache__/chrome.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/archive.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/config.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/constants.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/download_manager.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/driver.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/driver_cache.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/file_manager.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/http.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/logger.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/manager.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/os_manager.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/core/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/drivers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/drivers/__pycache__/chrome.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/drivers/__pycache__/edge.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/drivers/__pycache__/firefox.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/drivers/__pycache__/ie.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/drivers/__pycache__/opera.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/__pycache__/firefox.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/__pycache__/microsoft.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webdriver_manager/__pycache__/opera.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge/noarch::webdriver-manager==4.0.2=pyhd8ed1ab_1",
+  "sha256": "644030e6eede21a685553cfdc111fef3f6fcb1f3c1b170adac86dc3acd76f2b1",
+  "size": 26436,
+  "subdir": "noarch",
+  "timestamp": 1734973200000,
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/webdriver-manager-4.0.2-pyhd8ed1ab_1.conda",
+  "version": "4.0.2"
+}

@@ -1,0 +1,5 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+Scripts/**.cs linguist-language=C#
+PythonFiles/PyWebCatch linguist-vendored
+PythonFiles/PyWebCatch/** linguist-vendored

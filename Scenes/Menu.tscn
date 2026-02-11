@@ -1,0 +1,49 @@
+[gd_scene load_steps=10 format=3 uid="uid://dcgt5hl4ojp74"]
+
+[ext_resource type="Script" uid="uid://3of8kum83ecm" path="res://Scripts/MenuSystem.cs" id="1_3kf3n"]
+[ext_resource type="StyleBox" uid="uid://do7yvg1ufok0m" path="res://Theme/MenuThemes/MenuNorm.tres" id="2_6pedr"]
+[ext_resource type="StyleBox" uid="uid://bgp4l7cftv6wu" path="res://Theme/MenuThemes/MenuPressed.tres" id="3_syfuq"]
+[ext_resource type="StyleBox" uid="uid://di0ub6d038wnv" path="res://Theme/MenuThemes/MenuHover.tres" id="4_s2c3o"]
+[ext_resource type="StyleBox" uid="uid://7y0pbi3m0c26" path="res://Theme/MenuThemes/MenuSeparator.tres" id="5_ma218"]
+[ext_resource type="StyleBox" uid="uid://cfxq5pm2p33t7" path="res://Theme/MenuThemes/PopupMenuNorm.tres" id="6_wfhf6"]
+[ext_resource type="StyleBox" uid="uid://b1luf20g6pipg" path="res://Theme/MenuThemes/PopupMenuHover.tres" id="7_3jcrr"]
+[ext_resource type="PackedScene" uid="uid://d1aw5axn11ms4" path="res://Scenes/ProjectSelectionWindow.tscn" id="8_3jcrr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3kf3n"]
+bg_color = Color(0.11372549, 0.13333334, 0.16078432, 1)
+
+[node name="Menu" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -643.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3kf3n")
+
+[node name="MenuSystem" type="MarginContainer" parent="." node_paths=PackedStringArray("projselect_window")]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+script = ExtResource("1_3kf3n")
+projselect_window = NodePath("ProjectSelectionWindow")
+MenuNormBox = ExtResource("2_6pedr")
+MenuHoverBox = ExtResource("4_s2c3o")
+MenuPressedBox = ExtResource("3_syfuq")
+MenuPressedHoverBox = ExtResource("3_syfuq")
+FontNormColor = Color(1, 1, 1, 1)
+FontHoverColor = Color(1, 1, 1, 1)
+FontPressedColor = Color(1, 1, 1, 1)
+FontPressedHoverColor = Color(0.2669838, 0.5096859, 0.7220694, 1)
+PopupMenuSeparatorBox = ExtResource("5_ma218")
+PopupMenuNormBox = ExtResource("6_wfhf6")
+PopupMenuHoverBox = ExtResource("7_3jcrr")
+PopupMenuFontColor = Color(1, 1, 1, 1)
+PopupMenuAcceleratorFontColor = Color(0.5764706, 0.62352943, 0.6784314, 1)
+PopupMenuHoverFontColor = Color(1, 1, 1, 1)
+FontSize = 23
+
+[node name="ProjectSelectionWindow" parent="MenuSystem" instance=ExtResource("8_3jcrr")]
+visible = false

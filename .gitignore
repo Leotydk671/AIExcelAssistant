@@ -1,0 +1,7 @@
+.godot/
+/android/
+ProjectFiles/*
+PythonFiles/__pycache__/
+PythonFiles/.wdm
+PythonFiles/deepseek_chat_record.json
+PythonFiles/InterFiles/__pycache__/

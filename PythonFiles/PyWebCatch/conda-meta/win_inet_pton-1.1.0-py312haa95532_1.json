@@ -1,0 +1,115 @@
+{
+  "arch": "x86_64",
+  "build": "py312haa95532_1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\win_inet_pton-1.1.0-py312haa95532_1",
+  "files": [
+    "Lib/site-packages/__pycache__/win_inet_pton.cpython-312.pyc",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/METADATA",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/RECORD",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/WHEEL",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/win_inet_pton.py"
+  ],
+  "fn": "win_inet_pton-1.1.0-py312haa95532_1.conda",
+  "license": "PUBLIC-DOMAIN",
+  "link": {
+    "source": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\win_inet_pton-1.1.0-py312haa95532_1",
+    "type": 1
+  },
+  "md5": "3dd3d15741e7776a73388c368bd2c121",
+  "name": "win_inet_pton",
+  "package_tarball_full_path": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\win_inet_pton-1.1.0-py312haa95532_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/win_inet_pton.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "210319965a21c12b985d7cbd67ae01738947264379a5267f1734cb14b953e76a",
+        "sha256_in_prefix": "210319965a21c12b985d7cbd67ae01738947264379a5267f1734cb14b953e76a",
+        "size_in_bytes": 4985
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2a0cc0fcc4f18914aba779021408be57a3e854814807a943429e22e96b661e13",
+        "sha256_in_prefix": "2a0cc0fcc4f18914aba779021408be57a3e854814807a943429e22e96b661e13",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3ce1a845751d4597bd6521c604f471b5e274bd323f1bce767c46857571882ba9",
+        "sha256_in_prefix": "3ce1a845751d4597bd6521c604f471b5e274bd323f1bce767c46857571882ba9",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425",
+        "sha256_in_prefix": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e9594d08f7ed406e7ec17da860541e16739b2691cbd9f0609df3d0550d2797a3",
+        "sha256_in_prefix": "e9594d08f7ed406e7ec17da860541e16739b2691cbd9f0609df3d0550d2797a3",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.1.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2688ebd0bad28507e6f4881d89acc60ad3f27c71da229042cd92cb871e7f1774",
+        "sha256_in_prefix": "2688ebd0bad28507e6f4881d89acc60ad3f27c71da229042cd92cb871e7f1774",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton-1.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "58d1c102021ada107662a5239f18afa35d94f4c0769f07045b050833f8344226",
+        "sha256_in_prefix": "58d1c102021ada107662a5239f18afa35d94f4c0769f07045b050833f8344226",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "Lib/site-packages/win_inet_pton.py",
+        "path_type": "hardlink",
+        "sha256": "097bbf572cb0df4dbf44139239175c0335770a0eee056112a175b22efab034f8",
+        "sha256_in_prefix": "097bbf572cb0df4dbf44139239175c0335770a0eee056112a175b22efab034f8",
+        "size_in_bytes": 4035
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "defaults/win-64::win_inet_pton==1.1.0=py312haa95532_1",
+  "sha256": "a64044a1b6f6081ccf6c3fa43418b7636c2991688a56c038cd5435fefe8b0c60",
+  "size": 10175,
+  "subdir": "win-64",
+  "timestamp": 1761746316000,
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/win_inet_pton-1.1.0-py312haa95532_1.conda",
+  "version": "1.1.0"
+}

@@ -1,0 +1,2466 @@
+{
+  "arch": "x86_64",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "attrs >=23.2.0",
+    "cffi >=1.14",
+    "idna",
+    "outcome",
+    "python >=3.12,<3.13.0a0",
+    "sniffio >=1.3.0",
+    "sortedcontainers"
+  ],
+  "extracted_package_dir": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\trio-0.32.0-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/trio-0.32.0.dist-info/INSTALLER",
+    "Lib/site-packages/trio-0.32.0.dist-info/METADATA",
+    "Lib/site-packages/trio-0.32.0.dist-info/RECORD",
+    "Lib/site-packages/trio-0.32.0.dist-info/REQUESTED",
+    "Lib/site-packages/trio-0.32.0.dist-info/WHEEL",
+    "Lib/site-packages/trio-0.32.0.dist-info/direct_url.json",
+    "Lib/site-packages/trio-0.32.0.dist-info/entry_points.txt",
+    "Lib/site-packages/trio-0.32.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/trio-0.32.0.dist-info/licenses/LICENSE.APACHE2",
+    "Lib/site-packages/trio-0.32.0.dist-info/licenses/LICENSE.MIT",
+    "Lib/site-packages/trio-0.32.0.dist-info/top_level.txt",
+    "Lib/site-packages/trio/__init__.py",
+    "Lib/site-packages/trio/__main__.py",
+    "Lib/site-packages/trio/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_abc.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_channel.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_deprecate.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_dtls.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_file_io.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_highlevel_generic.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_highlevel_open_tcp_listeners.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_highlevel_open_tcp_stream.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_highlevel_open_unix_stream.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_highlevel_serve_listeners.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_highlevel_socket.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_highlevel_ssl_helpers.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_path.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_repl.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_signals.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_socket.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_ssl.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_subprocess.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_sync.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_threads.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_timeouts.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_unix_pipes.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_util.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_version.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_wait_for_object.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/_windows_pipes.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/abc.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/from_thread.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/lowlevel.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/socket.cpython-312.pyc",
+    "Lib/site-packages/trio/__pycache__/to_thread.cpython-312.pyc",
+    "Lib/site-packages/trio/_abc.py",
+    "Lib/site-packages/trio/_channel.py",
+    "Lib/site-packages/trio/_core/__init__.py",
+    "Lib/site-packages/trio/_core/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_asyncgens.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_concat_tb.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_entry_queue.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_exceptions.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_generated_instrumentation.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_generated_io_epoll.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_generated_io_kqueue.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_generated_io_windows.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_generated_run.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_generated_windows_ffi.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_instrumentation.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_io_common.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_io_epoll.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_io_kqueue.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_io_windows.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_ki.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_local.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_mock_clock.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_parking_lot.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_run.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_run_context.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_thread_cache.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_traps.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_unbounded_queue.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_wakeup_socketpair.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/__pycache__/_windows_cffi.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_asyncgens.py",
+    "Lib/site-packages/trio/_core/_concat_tb.py",
+    "Lib/site-packages/trio/_core/_entry_queue.py",
+    "Lib/site-packages/trio/_core/_exceptions.py",
+    "Lib/site-packages/trio/_core/_generated_instrumentation.py",
+    "Lib/site-packages/trio/_core/_generated_io_epoll.py",
+    "Lib/site-packages/trio/_core/_generated_io_kqueue.py",
+    "Lib/site-packages/trio/_core/_generated_io_windows.py",
+    "Lib/site-packages/trio/_core/_generated_run.py",
+    "Lib/site-packages/trio/_core/_generated_windows_ffi.py",
+    "Lib/site-packages/trio/_core/_instrumentation.py",
+    "Lib/site-packages/trio/_core/_io_common.py",
+    "Lib/site-packages/trio/_core/_io_epoll.py",
+    "Lib/site-packages/trio/_core/_io_kqueue.py",
+    "Lib/site-packages/trio/_core/_io_windows.py",
+    "Lib/site-packages/trio/_core/_ki.py",
+    "Lib/site-packages/trio/_core/_local.py",
+    "Lib/site-packages/trio/_core/_mock_clock.py",
+    "Lib/site-packages/trio/_core/_parking_lot.py",
+    "Lib/site-packages/trio/_core/_run.py",
+    "Lib/site-packages/trio/_core/_run_context.py",
+    "Lib/site-packages/trio/_core/_tests/__init__.py",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_asyncgen.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_cancelled.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_exceptiongroup_gc.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_guest_mode.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_instrumentation.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_io.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_ki.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_local.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_mock_clock.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_parking_lot.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_run.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_thread_cache.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_tutil.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_unbounded_queue.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/test_windows.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/__pycache__/tutil.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/test_asyncgen.py",
+    "Lib/site-packages/trio/_core/_tests/test_cancelled.py",
+    "Lib/site-packages/trio/_core/_tests/test_exceptiongroup_gc.py",
+    "Lib/site-packages/trio/_core/_tests/test_guest_mode.py",
+    "Lib/site-packages/trio/_core/_tests/test_instrumentation.py",
+    "Lib/site-packages/trio/_core/_tests/test_io.py",
+    "Lib/site-packages/trio/_core/_tests/test_ki.py",
+    "Lib/site-packages/trio/_core/_tests/test_local.py",
+    "Lib/site-packages/trio/_core/_tests/test_mock_clock.py",
+    "Lib/site-packages/trio/_core/_tests/test_parking_lot.py",
+    "Lib/site-packages/trio/_core/_tests/test_run.py",
+    "Lib/site-packages/trio/_core/_tests/test_thread_cache.py",
+    "Lib/site-packages/trio/_core/_tests/test_tutil.py",
+    "Lib/site-packages/trio/_core/_tests/test_unbounded_queue.py",
+    "Lib/site-packages/trio/_core/_tests/test_windows.py",
+    "Lib/site-packages/trio/_core/_tests/tutil.py",
+    "Lib/site-packages/trio/_core/_tests/type_tests/__pycache__/nursery_start.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/type_tests/__pycache__/run.cpython-312.pyc",
+    "Lib/site-packages/trio/_core/_tests/type_tests/nursery_start.py",
+    "Lib/site-packages/trio/_core/_tests/type_tests/run.py",
+    "Lib/site-packages/trio/_core/_thread_cache.py",
+    "Lib/site-packages/trio/_core/_traps.py",
+    "Lib/site-packages/trio/_core/_unbounded_queue.py",
+    "Lib/site-packages/trio/_core/_wakeup_socketpair.py",
+    "Lib/site-packages/trio/_core/_windows_cffi.py",
+    "Lib/site-packages/trio/_deprecate.py",
+    "Lib/site-packages/trio/_dtls.py",
+    "Lib/site-packages/trio/_file_io.py",
+    "Lib/site-packages/trio/_highlevel_generic.py",
+    "Lib/site-packages/trio/_highlevel_open_tcp_listeners.py",
+    "Lib/site-packages/trio/_highlevel_open_tcp_stream.py",
+    "Lib/site-packages/trio/_highlevel_open_unix_stream.py",
+    "Lib/site-packages/trio/_highlevel_serve_listeners.py",
+    "Lib/site-packages/trio/_highlevel_socket.py",
+    "Lib/site-packages/trio/_highlevel_ssl_helpers.py",
+    "Lib/site-packages/trio/_path.py",
+    "Lib/site-packages/trio/_repl.py",
+    "Lib/site-packages/trio/_signals.py",
+    "Lib/site-packages/trio/_socket.py",
+    "Lib/site-packages/trio/_ssl.py",
+    "Lib/site-packages/trio/_subprocess.py",
+    "Lib/site-packages/trio/_subprocess_platform/__init__.py",
+    "Lib/site-packages/trio/_subprocess_platform/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/trio/_subprocess_platform/__pycache__/kqueue.cpython-312.pyc",
+    "Lib/site-packages/trio/_subprocess_platform/__pycache__/waitid.cpython-312.pyc",
+    "Lib/site-packages/trio/_subprocess_platform/__pycache__/windows.cpython-312.pyc",
+    "Lib/site-packages/trio/_subprocess_platform/kqueue.py",
+    "Lib/site-packages/trio/_subprocess_platform/waitid.py",
+    "Lib/site-packages/trio/_subprocess_platform/windows.py",
+    "Lib/site-packages/trio/_sync.py",
+    "Lib/site-packages/trio/_tests/__init__.py",
+    "Lib/site-packages/trio/_tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/check_type_completeness.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/module_with_deprecations.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/pytest_plugin.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_abc.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_channel.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_contextvars.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_deprecate.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_deprecate_strict_exception_groups_false.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_dtls.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_exports.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_fakenet.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_file_io.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_generic.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_open_tcp_listeners.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_open_tcp_stream.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_open_unix_stream.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_serve_listeners.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_socket.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_ssl_helpers.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_path.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_repl.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_scheduler_determinism.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_signals.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_socket.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_ssl.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_subprocess.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_sync.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_testing.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_testing_raisesgroup.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_threads.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_timeouts.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_tracing.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_trio.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_unix_pipes.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_util.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_wait_for_object.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/__pycache__/test_windows_pipes.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/astrill-codesigning-cert.cer",
+    "Lib/site-packages/trio/_tests/check_type_completeness.py",
+    "Lib/site-packages/trio/_tests/module_with_deprecations.py",
+    "Lib/site-packages/trio/_tests/pytest_plugin.py",
+    "Lib/site-packages/trio/_tests/test_abc.py",
+    "Lib/site-packages/trio/_tests/test_channel.py",
+    "Lib/site-packages/trio/_tests/test_contextvars.py",
+    "Lib/site-packages/trio/_tests/test_deprecate.py",
+    "Lib/site-packages/trio/_tests/test_deprecate_strict_exception_groups_false.py",
+    "Lib/site-packages/trio/_tests/test_dtls.py",
+    "Lib/site-packages/trio/_tests/test_exports.py",
+    "Lib/site-packages/trio/_tests/test_fakenet.py",
+    "Lib/site-packages/trio/_tests/test_file_io.py",
+    "Lib/site-packages/trio/_tests/test_highlevel_generic.py",
+    "Lib/site-packages/trio/_tests/test_highlevel_open_tcp_listeners.py",
+    "Lib/site-packages/trio/_tests/test_highlevel_open_tcp_stream.py",
+    "Lib/site-packages/trio/_tests/test_highlevel_open_unix_stream.py",
+    "Lib/site-packages/trio/_tests/test_highlevel_serve_listeners.py",
+    "Lib/site-packages/trio/_tests/test_highlevel_socket.py",
+    "Lib/site-packages/trio/_tests/test_highlevel_ssl_helpers.py",
+    "Lib/site-packages/trio/_tests/test_path.py",
+    "Lib/site-packages/trio/_tests/test_repl.py",
+    "Lib/site-packages/trio/_tests/test_scheduler_determinism.py",
+    "Lib/site-packages/trio/_tests/test_signals.py",
+    "Lib/site-packages/trio/_tests/test_socket.py",
+    "Lib/site-packages/trio/_tests/test_ssl.py",
+    "Lib/site-packages/trio/_tests/test_subprocess.py",
+    "Lib/site-packages/trio/_tests/test_sync.py",
+    "Lib/site-packages/trio/_tests/test_testing.py",
+    "Lib/site-packages/trio/_tests/test_testing_raisesgroup.py",
+    "Lib/site-packages/trio/_tests/test_threads.py",
+    "Lib/site-packages/trio/_tests/test_timeouts.py",
+    "Lib/site-packages/trio/_tests/test_tracing.py",
+    "Lib/site-packages/trio/_tests/test_trio.py",
+    "Lib/site-packages/trio/_tests/test_unix_pipes.py",
+    "Lib/site-packages/trio/_tests/test_util.py",
+    "Lib/site-packages/trio/_tests/test_wait_for_object.py",
+    "Lib/site-packages/trio/_tests/test_windows_pipes.py",
+    "Lib/site-packages/trio/_tests/tools/__init__.py",
+    "Lib/site-packages/trio/_tests/tools/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/tools/__pycache__/test_gen_exports.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/tools/__pycache__/test_mypy_annotate.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/tools/__pycache__/test_sync_requirements.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/tools/test_gen_exports.py",
+    "Lib/site-packages/trio/_tests/tools/test_mypy_annotate.py",
+    "Lib/site-packages/trio/_tests/tools/test_sync_requirements.py",
+    "Lib/site-packages/trio/_tests/type_tests/__pycache__/check_wraps.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/type_tests/__pycache__/open_memory_channel.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/type_tests/__pycache__/path.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/type_tests/__pycache__/raisesgroup.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/type_tests/__pycache__/subprocesses.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/type_tests/__pycache__/task_status.cpython-312.pyc",
+    "Lib/site-packages/trio/_tests/type_tests/check_wraps.py",
+    "Lib/site-packages/trio/_tests/type_tests/open_memory_channel.py",
+    "Lib/site-packages/trio/_tests/type_tests/path.py",
+    "Lib/site-packages/trio/_tests/type_tests/raisesgroup.py",
+    "Lib/site-packages/trio/_tests/type_tests/subprocesses.py",
+    "Lib/site-packages/trio/_tests/type_tests/task_status.py",
+    "Lib/site-packages/trio/_threads.py",
+    "Lib/site-packages/trio/_timeouts.py",
+    "Lib/site-packages/trio/_tools/__init__.py",
+    "Lib/site-packages/trio/_tools/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/trio/_tools/__pycache__/gen_exports.cpython-312.pyc",
+    "Lib/site-packages/trio/_tools/__pycache__/mypy_annotate.cpython-312.pyc",
+    "Lib/site-packages/trio/_tools/__pycache__/sync_requirements.cpython-312.pyc",
+    "Lib/site-packages/trio/_tools/__pycache__/windows_ffi_build.cpython-312.pyc",
+    "Lib/site-packages/trio/_tools/gen_exports.py",
+    "Lib/site-packages/trio/_tools/mypy_annotate.py",
+    "Lib/site-packages/trio/_tools/sync_requirements.py",
+    "Lib/site-packages/trio/_tools/windows_ffi_build.py",
+    "Lib/site-packages/trio/_unix_pipes.py",
+    "Lib/site-packages/trio/_util.py",
+    "Lib/site-packages/trio/_version.py",
+    "Lib/site-packages/trio/_wait_for_object.py",
+    "Lib/site-packages/trio/_windows_pipes.py",
+    "Lib/site-packages/trio/abc.py",
+    "Lib/site-packages/trio/from_thread.py",
+    "Lib/site-packages/trio/lowlevel.py",
+    "Lib/site-packages/trio/py.typed",
+    "Lib/site-packages/trio/socket.py",
+    "Lib/site-packages/trio/testing/__init__.py",
+    "Lib/site-packages/trio/testing/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/__pycache__/_check_streams.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/__pycache__/_checkpoints.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/__pycache__/_fake_net.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/__pycache__/_memory_streams.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/__pycache__/_network.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/__pycache__/_raises_group.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/__pycache__/_sequencer.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/__pycache__/_trio_test.cpython-312.pyc",
+    "Lib/site-packages/trio/testing/_check_streams.py",
+    "Lib/site-packages/trio/testing/_checkpoints.py",
+    "Lib/site-packages/trio/testing/_fake_net.py",
+    "Lib/site-packages/trio/testing/_memory_streams.py",
+    "Lib/site-packages/trio/testing/_network.py",
+    "Lib/site-packages/trio/testing/_raises_group.py",
+    "Lib/site-packages/trio/testing/_sequencer.py",
+    "Lib/site-packages/trio/testing/_trio_test.py",
+    "Lib/site-packages/trio/to_thread.py"
+  ],
+  "fn": "trio-0.32.0-py312haa95532_0.conda",
+  "license": "MIT AND Apache-2.0",
+  "license_family": "Other",
+  "link": {
+    "source": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\trio-0.32.0-py312haa95532_0",
+    "type": 1
+  },
+  "md5": "710c676ae9df2fffde0d9d8e252e6880",
+  "name": "trio",
+  "package_tarball_full_path": "C:\\Users\\JMaoS\\anaconda3\\pkgs\\trio-0.32.0-py312haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "81419dbcc91f3f1503ac412f0cb3445b14225d3dd0faea3cef792e3089604c14",
+        "sha256_in_prefix": "81419dbcc91f3f1503ac412f0cb3445b14225d3dd0faea3cef792e3089604c14",
+        "size_in_bytes": 8684
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4d67bfec8a9bffc9618d2ab3f328d02f1dc37b1f6a1295009e14aec1e27e9f83",
+        "sha256_in_prefix": "4d67bfec8a9bffc9618d2ab3f328d02f1dc37b1f6a1295009e14aec1e27e9f83",
+        "size_in_bytes": 21999
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "eebf741cb96b837e9dd5fac41e967ec0a6f870c24842e7da147ef6ce7ee6c37d",
+        "sha256_in_prefix": "eebf741cb96b837e9dd5fac41e967ec0a6f870c24842e7da147ef6ce7ee6c37d",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "c2ec7093605f363b4b09d28ceb2a476b68bd8825a8402ccb79c9265536aa3444",
+        "sha256_in_prefix": "c2ec7093605f363b4b09d28ceb2a476b68bd8825a8402ccb79c9265536aa3444",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "418d025e1284311f2690263e6efa6bf51585e5741818ece63e5862487e505bb9",
+        "sha256_in_prefix": "418d025e1284311f2690263e6efa6bf51585e5741818ece63e5862487e505bb9",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/licenses/LICENSE.APACHE2",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/licenses/LICENSE.MIT",
+        "path_type": "hardlink",
+        "sha256": "faa301d72dcc023b432bd77dc08a773ca3449e5c27440b9d66eb46fb8500b430",
+        "sha256_in_prefix": "faa301d72dcc023b432bd77dc08a773ca3449e5c27440b9d66eb46fb8500b430",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "Lib/site-packages/trio-0.32.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fe57bf043bd9ff030bd7d9f8555d05e6f32eaa5b9c9f74b65838f7e1d0d8fd5a",
+        "sha256_in_prefix": "fe57bf043bd9ff030bd7d9f8555d05e6f32eaa5b9c9f74b65838f7e1d0d8fd5a",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/trio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b41126ddea280bfbedf34e669e7e058449ff78b2ebabbd0769162a3902b56aa",
+        "sha256_in_prefix": "8b41126ddea280bfbedf34e669e7e058449ff78b2ebabbd0769162a3902b56aa",
+        "size_in_bytes": 4758
+      },
+      {
+        "_path": "Lib/site-packages/trio/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "153917a0b2ee1da22a3a0bb5c811a57567a39615a21d1d7672f61ca71711a219",
+        "sha256_in_prefix": "153917a0b2ee1da22a3a0bb5c811a57567a39615a21d1d7672f61ca71711a219",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "82aa6d19889f570953e97ecfcb5485f6c6384c95c3524dc091f22ff754b4dcfc",
+        "sha256_in_prefix": "82aa6d19889f570953e97ecfcb5485f6c6384c95c3524dc091f22ff754b4dcfc",
+        "size_in_bytes": 3391
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fca7796510122b5e22d49bec32a7aff53b4b71d737985b6b3f0e6b2e0dd6ef1b",
+        "sha256_in_prefix": "fca7796510122b5e22d49bec32a7aff53b4b71d737985b6b3f0e6b2e0dd6ef1b",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_abc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b359eecbbea95c86e0a5dc0b105430b791f7d569604b6254abb60797813961ff",
+        "sha256_in_prefix": "b359eecbbea95c86e0a5dc0b105430b791f7d569604b6254abb60797813961ff",
+        "size_in_bytes": 29830
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_channel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "71e83e7674d1df5d8ad7be1f8fb3b2ab11a86b13ee12b0bfd2e021548fc27bec",
+        "sha256_in_prefix": "71e83e7674d1df5d8ad7be1f8fb3b2ab11a86b13ee12b0bfd2e021548fc27bec",
+        "size_in_bytes": 32318
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_deprecate.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf6ca3101b2d761fd4399c414000459c4d1f3548c39d837a3c41cbdef77ef5e2",
+        "sha256_in_prefix": "cf6ca3101b2d761fd4399c414000459c4d1f3548c39d837a3c41cbdef77ef5e2",
+        "size_in_bytes": 6812
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_dtls.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "df944fcbb63cc7d439df685b7e7307ec78a762c8ce3beed1491bbf11a7430ec4",
+        "sha256_in_prefix": "df944fcbb63cc7d439df685b7e7307ec78a762c8ce3beed1491bbf11a7430ec4",
+        "size_in_bytes": 51278
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_file_io.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b58eaf60d649f6baa388cf42145fe7c3c70f6f51d69d0a034bde066c7b870c42",
+        "sha256_in_prefix": "b58eaf60d649f6baa388cf42145fe7c3c70f6f51d69d0a034bde066c7b870c42",
+        "size_in_bytes": 27457
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_highlevel_generic.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9be0a86f58000dd755f252154d2ada1ed8bd405b0ee46d21880fba3b8fafa4d",
+        "sha256_in_prefix": "d9be0a86f58000dd755f252154d2ada1ed8bd405b0ee46d21880fba3b8fafa4d",
+        "size_in_bytes": 6544
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_highlevel_open_tcp_listeners.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7242d364af1e8686f06413c521010347e6646fa8a4bc63157a470d3a869d7625",
+        "sha256_in_prefix": "7242d364af1e8686f06413c521010347e6646fa8a4bc63157a470d3a869d7625",
+        "size_in_bytes": 8828
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_highlevel_open_tcp_stream.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "723b0fa9ae6a9235c568f8f4c9e20f960d8bed72eb4529ec62f543dcb513cd69",
+        "sha256_in_prefix": "723b0fa9ae6a9235c568f8f4c9e20f960d8bed72eb4529ec62f543dcb513cd69",
+        "size_in_bytes": 10135
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_highlevel_open_unix_stream.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "48b91fc773437f51dcf5a77043d123add4c36c0b3dfca73a2d17856f621170c6",
+        "sha256_in_prefix": "48b91fc773437f51dcf5a77043d123add4c36c0b3dfca73a2d17856f621170c6",
+        "size_in_bytes": 2583
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_highlevel_serve_listeners.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f10e3075a3082e84574a26190f279787532044b01f1a3a93a87fe91738333ea",
+        "sha256_in_prefix": "3f10e3075a3082e84574a26190f279787532044b01f1a3a93a87fe91738333ea",
+        "size_in_bytes": 6155
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_highlevel_socket.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d2c24e13370ac0cf805534bc3b6ff1d45f06c0db94143aa1a5c15aedac6f712",
+        "sha256_in_prefix": "6d2c24e13370ac0cf805534bc3b6ff1d45f06c0db94143aa1a5c15aedac6f712",
+        "size_in_bytes": 13687
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_highlevel_ssl_helpers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c8f06a5803452bd59bf5571ade44398902800cdc41cd8af3d0c2fecc9981c60",
+        "sha256_in_prefix": "7c8f06a5803452bd59bf5571ade44398902800cdc41cd8af3d0c2fecc9981c60",
+        "size_in_bytes": 6843
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_path.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1eabb766f2067993aabf7092300d66421453aa84b556c8ec9332afb376de0309",
+        "sha256_in_prefix": "1eabb766f2067993aabf7092300d66421453aa84b556c8ec9332afb376de0309",
+        "size_in_bytes": 14661
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_repl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9b161d0c9a8e6af8b743e6331f163390c1909d7d8156a3b416158be408d93df",
+        "sha256_in_prefix": "f9b161d0c9a8e6af8b743e6331f163390c1909d7d8156a3b416158be408d93df",
+        "size_in_bytes": 8131
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_signals.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a9e59fcb0daa9ccb8df2330370a43c8a623ee3f8cd7edf17044339d836130c4c",
+        "sha256_in_prefix": "a9e59fcb0daa9ccb8df2330370a43c8a623ee3f8cd7edf17044339d836130c4c",
+        "size_in_bytes": 7054
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_socket.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b1c6c4c32e949013a13c43cff899f1f1a259d2b74d5bd52575b81d3d80a507a",
+        "sha256_in_prefix": "1b1c6c4c32e949013a13c43cff899f1f1a259d2b74d5bd52575b81d3d80a507a",
+        "size_in_bytes": 43901
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_ssl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "65371a223b6dbf924169de79527b04d49911224fcb6b4b8239d629c69166ae7e",
+        "sha256_in_prefix": "65371a223b6dbf924169de79527b04d49911224fcb6b4b8239d629c69166ae7e",
+        "size_in_bytes": 27791
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_subprocess.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5df24dd220228febd9cffbf7ce11b114ba0e73e760e10a95dbb5487d3b351e4",
+        "sha256_in_prefix": "a5df24dd220228febd9cffbf7ce11b114ba0e73e760e10a95dbb5487d3b351e4",
+        "size_in_bytes": 53901
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_sync.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "509979685d6ef081809c8eaaf92eb01fbd5720a7d2e34075b53fe7693f71e30c",
+        "sha256_in_prefix": "509979685d6ef081809c8eaaf92eb01fbd5720a7d2e34075b53fe7693f71e30c",
+        "size_in_bytes": 42437
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_threads.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "28f25f66460711bb95c809341bb2e8e4cdf4eb9a5c72a143c8c2acd2276f0612",
+        "sha256_in_prefix": "28f25f66460711bb95c809341bb2e8e4cdf4eb9a5c72a143c8c2acd2276f0612",
+        "size_in_bytes": 28849
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_timeouts.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b86bb10d991ca47da474dac6613fb6a571dc997a0948c9aa97cba159b2fde14",
+        "sha256_in_prefix": "5b86bb10d991ca47da474dac6613fb6a571dc997a0948c9aa97cba159b2fde14",
+        "size_in_bytes": 7935
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_unix_pipes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5215d1f2d5ca52ce0623a534a0db2cd427256acd07ce338f8a297765e525e5fa",
+        "sha256_in_prefix": "5215d1f2d5ca52ce0623a534a0db2cd427256acd07ce338f8a297765e525e5fa",
+        "size_in_bytes": 9492
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_util.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6c7e51948f8d905cfa0a22b0f5600c1e8ad00c1f5c930daebb3f59a872dbb5c",
+        "sha256_in_prefix": "d6c7e51948f8d905cfa0a22b0f5600c1e8ad00c1f5c930daebb3f59a872dbb5c",
+        "size_in_bytes": 14120
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1dd35bd1537b56279ae525ee63fea7e8c7c95a38263536ea4aa9be6abbf7697d",
+        "sha256_in_prefix": "1dd35bd1537b56279ae525ee63fea7e8c7c95a38263536ea4aa9be6abbf7697d",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_wait_for_object.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "43bde5e9a44d245bf7e939e07caea0bcea6ccb8a6a2463f9123bcf590641b10d",
+        "sha256_in_prefix": "43bde5e9a44d245bf7e939e07caea0bcea6ccb8a6a2463f9123bcf590641b10d",
+        "size_in_bytes": 2538
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/_windows_pipes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9888788d97d8f053b183ef230875d9f0ba434101dc717df7d46f764a9879a507",
+        "sha256_in_prefix": "9888788d97d8f053b183ef230875d9f0ba434101dc717df7d46f764a9879a507",
+        "size_in_bytes": 6910
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/abc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "adb1446418866862289dac4687263ea96c7d3929b6b4968b96066ec34a108f1b",
+        "sha256_in_prefix": "adb1446418866862289dac4687263ea96c7d3929b6b4968b96066ec34a108f1b",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/from_thread.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "49e1ffcf91932a3d16ec68570a98c273fda9bab9435c6cb863495faec51d76c3",
+        "sha256_in_prefix": "49e1ffcf91932a3d16ec68570a98c273fda9bab9435c6cb863495faec51d76c3",
+        "size_in_bytes": 509
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/lowlevel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3cdd3896a9d658b014b59ab531149e51b2a3f8be820911387c6438635fce1ef",
+        "sha256_in_prefix": "b3cdd3896a9d658b014b59ab531149e51b2a3f8be820911387c6438635fce1ef",
+        "size_in_bytes": 2494
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/socket.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6680cc84ec2e7596320f614a5389115d1c02386520d3f96bb6e21a41d962e5d",
+        "sha256_in_prefix": "f6680cc84ec2e7596320f614a5389115d1c02386520d3f96bb6e21a41d962e5d",
+        "size_in_bytes": 16468
+      },
+      {
+        "_path": "Lib/site-packages/trio/__pycache__/to_thread.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9659320c8c97132bfd06f0136e0e2c5daea746f162de429ee655b160b62ebb4e",
+        "sha256_in_prefix": "9659320c8c97132bfd06f0136e0e2c5daea746f162de429ee655b160b62ebb4e",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "Lib/site-packages/trio/_abc.py",
+        "path_type": "hardlink",
+        "sha256": "23d7f0c6c9e0da7065a5f2f6a674c8f26c87d3e295f9a6621ec56f5b2763e29a",
+        "sha256_in_prefix": "23d7f0c6c9e0da7065a5f2f6a674c8f26c87d3e295f9a6621ec56f5b2763e29a",
+        "size_in_bytes": 25681
+      },
+      {
+        "_path": "Lib/site-packages/trio/_channel.py",
+        "path_type": "hardlink",
+        "sha256": "96851ff719d978a17c88a40b98a57c5ce716aa94bf70c9d349418ca4979c4a89",
+        "sha256_in_prefix": "96851ff719d978a17c88a40b98a57c5ce716aa94bf70c9d349418ca4979c4a89",
+        "size_in_bytes": 23972
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "80bc1eee579c540ec71376660af230455c05a209a347f602749f102b17d368e8",
+        "sha256_in_prefix": "80bc1eee579c540ec71376660af230455c05a209a347f602749f102b17d368e8",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ea540f8c76684d5d1b1a1c9d64507c6dcf57cd39649c97cef01461593f2b8a7",
+        "sha256_in_prefix": "3ea540f8c76684d5d1b1a1c9d64507c6dcf57cd39649c97cef01461593f2b8a7",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_asyncgens.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c878634e16157d3fcb101e8f1482ec5f1d40a27b58d597f8c92aa6b679c236e",
+        "sha256_in_prefix": "4c878634e16157d3fcb101e8f1482ec5f1d40a27b58d597f8c92aa6b679c236e",
+        "size_in_bytes": 8176
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_concat_tb.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b6c9d1b7a93bfae845eefefe23d8febef9232de5b0fc2e06401a76cef623f06",
+        "sha256_in_prefix": "6b6c9d1b7a93bfae845eefefe23d8febef9232de5b0fc2e06401a76cef623f06",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_entry_queue.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fec0001aaa11e198cf2741bcec93f41e41cdcd4e0b3ee908a3e02dd516b806a",
+        "sha256_in_prefix": "9fec0001aaa11e198cf2741bcec93f41e41cdcd4e0b3ee908a3e02dd516b806a",
+        "size_in_bytes": 8773
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "65cd3fa26f8f4e87c295b564433b9baa70032f62d80d0efbc260a8b7e7a2fe23",
+        "sha256_in_prefix": "65cd3fa26f8f4e87c295b564433b9baa70032f62d80d0efbc260a8b7e7a2fe23",
+        "size_in_bytes": 7157
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_generated_instrumentation.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3d757d2a6557f811b3bbde98a7f707ae57d227467464cbd9e224f075b5758d9",
+        "sha256_in_prefix": "b3d757d2a6557f811b3bbde98a7f707ae57d227467464cbd9e224f075b5758d9",
+        "size_in_bytes": 1914
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_generated_io_epoll.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a73e917c90705fa9101e97de9acd0258f5080964d423802da06af61e2c9b2087",
+        "sha256_in_prefix": "a73e917c90705fa9101e97de9acd0258f5080964d423802da06af61e2c9b2087",
+        "size_in_bytes": 4376
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_generated_io_kqueue.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a495767c1801248fc0ecda6d44a424dfc80e6dda5301fb91d0b6838409213fd",
+        "sha256_in_prefix": "8a495767c1801248fc0ecda6d44a424dfc80e6dda5301fb91d0b6838409213fd",
+        "size_in_bytes": 6281
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_generated_io_windows.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "73964f9dfdb43eef1fa157357fe1c12973a37720b9e96e0b9ac74a90d9190519",
+        "sha256_in_prefix": "73964f9dfdb43eef1fa157357fe1c12973a37720b9e96e0b9ac74a90d9190519",
+        "size_in_bytes": 7787
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_generated_run.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0df147d01b5aba84ef4adf47a48c5b21f5adb30659c9762b88feb106297c108a",
+        "sha256_in_prefix": "0df147d01b5aba84ef4adf47a48c5b21f5adb30659c9762b88feb106297c108a",
+        "size_in_bytes": 11154
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_generated_windows_ffi.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a79eb97a006b5d35f6ae22960afa62980dc79f6845826e155856c40680794e30",
+        "sha256_in_prefix": "a79eb97a006b5d35f6ae22960afa62980dc79f6845826e155856c40680794e30",
+        "size_in_bytes": 2526
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_instrumentation.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "24b1fbe007f6a45f25073bee8519e1bb26e7a087235011b3b813a0037e0d71ab",
+        "sha256_in_prefix": "24b1fbe007f6a45f25073bee8519e1bb26e7a087235011b3b813a0037e0d71ab",
+        "size_in_bytes": 4887
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_io_common.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "656b62767d92c4f7aac7b687b990c6db25dcecbdf75779c6b7611e5b0b79e73f",
+        "sha256_in_prefix": "656b62767d92c4f7aac7b687b990c6db25dcecbdf75779c6b7611e5b0b79e73f",
+        "size_in_bytes": 1197
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_io_epoll.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b65cce812f7ff4e0386b4bce56546fac488a70a7bd4642f892fffc5af4db2897",
+        "sha256_in_prefix": "b65cce812f7ff4e0386b4bce56546fac488a70a7bd4642f892fffc5af4db2897",
+        "size_in_bytes": 11847
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_io_kqueue.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a28e5630cff2c1814c668989c435e4378ede6835bc9ab159365461944139e3d",
+        "sha256_in_prefix": "4a28e5630cff2c1814c668989c435e4378ede6835bc9ab159365461944139e3d",
+        "size_in_bytes": 13650
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_io_windows.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d640744f010ac1fc6ee2707650afe031ec8842ac6c36d4df43cb07f305eca404",
+        "sha256_in_prefix": "d640744f010ac1fc6ee2707650afe031ec8842ac6c36d4df43cb07f305eca404",
+        "size_in_bytes": 32344
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_ki.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ab95b4292d7bcd790ea73551dbd5f01e24073367b3382da8ffe29fe398db258",
+        "sha256_in_prefix": "8ab95b4292d7bcd790ea73551dbd5f01e24073367b3382da8ffe29fe398db258",
+        "size_in_bytes": 8300
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_local.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "888d72e93dfe302c2c796d497a360d2fedd24292804108b6cd882f74e7668908",
+        "sha256_in_prefix": "888d72e93dfe302c2c796d497a360d2fedd24292804108b6cd882f74e7668908",
+        "size_in_bytes": 4816
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_mock_clock.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "74243aff1a4c925c9ef72a203244a82ded9f55fd898f1bccfcca1d999816adaf",
+        "sha256_in_prefix": "74243aff1a4c925c9ef72a203244a82ded9f55fd898f1bccfcca1d999816adaf",
+        "size_in_bytes": 7585
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_parking_lot.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff6a632de9391c9eb67db402deba2437a9d99701296187bba10cee88e00c1d43",
+        "sha256_in_prefix": "ff6a632de9391c9eb67db402deba2437a9d99701296187bba10cee88e00c1d43",
+        "size_in_bytes": 10841
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_run.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b76db2e16ed38a990ad80e0a5b0b6d13a49cb84fa3fdd0480b73e263599df591",
+        "sha256_in_prefix": "b76db2e16ed38a990ad80e0a5b0b6d13a49cb84fa3fdd0480b73e263599df591",
+        "size_in_bytes": 119321
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_run_context.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ac5dd7d197cbddfa27fc64f67f4151a7541654373b2f3abf558bdd60500306d",
+        "sha256_in_prefix": "4ac5dd7d197cbddfa27fc64f67f4151a7541654373b2f3abf558bdd60500306d",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_thread_cache.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d31b2a0b187ee4b2fe83279c8a421ea77cc50de1d64da53cf1576843ced9ef24",
+        "sha256_in_prefix": "d31b2a0b187ee4b2fe83279c8a421ea77cc50de1d64da53cf1576843ced9ef24",
+        "size_in_bytes": 9648
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_traps.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6c43b6db95d7c6b9868dc06b7fcdac4e11b210dcf97580f1f12d7684917842b",
+        "sha256_in_prefix": "b6c43b6db95d7c6b9868dc06b7fcdac4e11b210dcf97580f1f12d7684917842b",
+        "size_in_bytes": 13018
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_unbounded_queue.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab5d84dc0950ea488d3f421c3d415b6105b59d59fc4311ba75cbd137863187d3",
+        "sha256_in_prefix": "ab5d84dc0950ea488d3f421c3d415b6105b59d59fc4311ba75cbd137863187d3",
+        "size_in_bytes": 7462
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_wakeup_socketpair.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7995dc0bdb848e9e96d0e63fe26efef4ea9a7e5fc6f5e262f927a6f9b05fba86",
+        "sha256_in_prefix": "7995dc0bdb848e9e96d0e63fe26efef4ea9a7e5fc6f5e262f927a6f9b05fba86",
+        "size_in_bytes": 4086
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/__pycache__/_windows_cffi.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "21dc9d0b9ffda2759daa5a5a0ec0daa539b5675b674bf7917387398596325047",
+        "sha256_in_prefix": "21dc9d0b9ffda2759daa5a5a0ec0daa539b5675b674bf7917387398596325047",
+        "size_in_bytes": 11697
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_asyncgens.py",
+        "path_type": "hardlink",
+        "sha256": "007f4c101af33411a328b073a3c5ed7db8f58d8bdd9ff72d3f950274720451e2",
+        "sha256_in_prefix": "007f4c101af33411a328b073a3c5ed7db8f58d8bdd9ff72d3f950274720451e2",
+        "size_in_bytes": 10680
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_concat_tb.py",
+        "path_type": "hardlink",
+        "sha256": "3e69c5008a75416d21633dac01248b2064921d35476069a90316de9c56aca77e",
+        "sha256_in_prefix": "3e69c5008a75416d21633dac01248b2064921d35476069a90316de9c56aca77e",
+        "size_in_bytes": 877
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_entry_queue.py",
+        "path_type": "hardlink",
+        "sha256": "4c02ca7ec3e1726d5d79451349e440eff20607a18294f5135141e9c516efe784",
+        "sha256_in_prefix": "4c02ca7ec3e1726d5d79451349e440eff20607a18294f5135141e9c516efe784",
+        "size_in_bytes": 9427
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "005d76b94aa4d9f424e32a069c90d9ca961addd00412aca3bc8c3e7f9df07b52",
+        "sha256_in_prefix": "005d76b94aa4d9f424e32a069c90d9ca961addd00412aca3bc8c3e7f9df07b52",
+        "size_in_bytes": 5785
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_generated_instrumentation.py",
+        "path_type": "hardlink",
+        "sha256": "6f4f128f5ae28e10dd5a4882871ded6b7d2e5f0778b8c35450f8457c62872d8e",
+        "sha256_in_prefix": "6f4f128f5ae28e10dd5a4882871ded6b7d2e5f0778b8c35450f8457c62872d8e",
+        "size_in_bytes": 1627
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_generated_io_epoll.py",
+        "path_type": "hardlink",
+        "sha256": "088db0d5bf9f0772465d393de449896f11cc639b60694f7d43a6d4b0748b5254",
+        "sha256_in_prefix": "088db0d5bf9f0772465d393de449896f11cc639b60694f7d43a6d4b0748b5254",
+        "size_in_bytes": 3850
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_generated_io_kqueue.py",
+        "path_type": "hardlink",
+        "sha256": "162a9ed9c081e75ce5fdade2614939a0400f57b76929d87e6fb8c492ed2aeffa",
+        "sha256_in_prefix": "162a9ed9c081e75ce5fdade2614939a0400f57b76929d87e6fb8c492ed2aeffa",
+        "size_in_bytes": 5545
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_generated_io_windows.py",
+        "path_type": "hardlink",
+        "sha256": "72cc2ed14cdc90591101c14e917600bf97a4841cd1b1d372d2decdfec81df0e9",
+        "sha256_in_prefix": "72cc2ed14cdc90591101c14e917600bf97a4841cd1b1d372d2decdfec81df0e9",
+        "size_in_bytes": 7491
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_generated_run.py",
+        "path_type": "hardlink",
+        "sha256": "d11cc6bf0d3d33bf7480541839b481fa410e46fb7d28e0b500c2b3c5dc08b66b",
+        "sha256_in_prefix": "d11cc6bf0d3d33bf7480541839b481fa410e46fb7d28e0b500c2b3c5dc08b66b",
+        "size_in_bytes": 10131
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_generated_windows_ffi.py",
+        "path_type": "hardlink",
+        "sha256": "0353b2f65687ffc696f1d6b72b2fc9f61bd4ddd22db6956c629485a344e66e3c",
+        "sha256_in_prefix": "0353b2f65687ffc696f1d6b72b2fc9f61bd4ddd22db6956c629485a344e66e3c",
+        "size_in_bytes": 4586
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_instrumentation.py",
+        "path_type": "hardlink",
+        "sha256": "88589694467d06f7eef52a52ce8e6cc504d30aff7daee48015384d564f72ed5b",
+        "sha256_in_prefix": "88589694467d06f7eef52a52ce8e6cc504d30aff7daee48015384d564f72ed5b",
+        "size_in_bytes": 3959
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_io_common.py",
+        "path_type": "hardlink",
+        "sha256": "0cade5a8d3d5e60e153c3a28ed51787d74484c83050332655c11a6ae1b00f395",
+        "sha256_in_prefix": "0cade5a8d3d5e60e153c3a28ed51787d74484c83050332655c11a6ae1b00f395",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_io_epoll.py",
+        "path_type": "hardlink",
+        "sha256": "7da665ef738566d4b440b065b487718ceca019422ee6ab35473b98faab51fd59",
+        "sha256_in_prefix": "7da665ef738566d4b440b065b487718ceca019422ee6ab35473b98faab51fd59",
+        "size_in_bytes": 17807
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_io_kqueue.py",
+        "path_type": "hardlink",
+        "sha256": "5145764467fd03150dd9ba643562fbf3405569194806ee8204860e906815f2db",
+        "sha256_in_prefix": "5145764467fd03150dd9ba643562fbf3405569194806ee8204860e906815f2db",
+        "size_in_bytes": 11549
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_io_windows.py",
+        "path_type": "hardlink",
+        "sha256": "d6dfc6588330694324b5e532c90de7083773375626e2c10cd82d41c356cb94d9",
+        "sha256_in_prefix": "d6dfc6588330694324b5e532c90de7083773375626e2c10cd82d41c356cb94d9",
+        "size_in_bytes": 43874
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_ki.py",
+        "path_type": "hardlink",
+        "sha256": "719e58602266b4f3aabe3022648fd37a2c2da4b229e2e0f62cff81fccfd5200e",
+        "sha256_in_prefix": "719e58602266b4f3aabe3022648fd37a2c2da4b229e2e0f62cff81fccfd5200e",
+        "size_in_bytes": 9070
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_local.py",
+        "path_type": "hardlink",
+        "sha256": "1ec68428ac0ba750a082343b196e9502dd018207fae8e15bcffa64fb71583cd1",
+        "sha256_in_prefix": "1ec68428ac0ba750a082343b196e9502dd018207fae8e15bcffa64fb71583cd1",
+        "size_in_bytes": 3212
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_mock_clock.py",
+        "path_type": "hardlink",
+        "sha256": "89a289ae2824cd1ecb3a3818eeeb38c41c4e7b63b4cfe44a8537016f686fec3f",
+        "sha256_in_prefix": "89a289ae2824cd1ecb3a3818eeeb38c41c4e7b63b4cfe44a8537016f686fec3f",
+        "size_in_bytes": 6316
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_parking_lot.py",
+        "path_type": "hardlink",
+        "sha256": "c1141153f9bd292b444e161eb4ef0f2c70567bcf0ba11bcf90d04d5c164af99d",
+        "sha256_in_prefix": "c1141153f9bd292b444e161eb4ef0f2c70567bcf0ba11bcf90d04d5c164af99d",
+        "size_in_bytes": 11970
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_run.py",
+        "path_type": "hardlink",
+        "sha256": "19f3c188a3f4363e4fd21eb88deb718923278b1b8e53e9150bd2fcd485a8b2cc",
+        "sha256_in_prefix": "19f3c188a3f4363e4fd21eb88deb718923278b1b8e53e9150bd2fcd485a8b2cc",
+        "size_in_bytes": 129468
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_run_context.py",
+        "path_type": "hardlink",
+        "sha256": "ca2ebde674205e2428a58b0fba287d26dfaa79f13e728c2d32e758ce7ff57815",
+        "sha256_in_prefix": "ca2ebde674205e2428a58b0fba287d26dfaa79f13e728c2d32e758ce7ff57815",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e4ee986e87a33555ba585d381f3fd106a1168ccd89a8cb8158e62df14357cc4",
+        "sha256_in_prefix": "6e4ee986e87a33555ba585d381f3fd106a1168ccd89a8cb8158e62df14357cc4",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_asyncgen.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "df5dc849fb057d5465f561c7a7786e0c376234705e2f7084d99e5bcb5e02db06",
+        "sha256_in_prefix": "df5dc849fb057d5465f561c7a7786e0c376234705e2f7084d99e5bcb5e02db06",
+        "size_in_bytes": 20037
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_cancelled.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9293ed1177c53cfa16351c02ab555c203ae4732b2a6d563d57e6b93693fc3e72",
+        "sha256_in_prefix": "9293ed1177c53cfa16351c02ab555c203ae4732b2a6d563d57e6b93693fc3e72",
+        "size_in_bytes": 15602
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_exceptiongroup_gc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "23192ecca9c0e70460e15a9e295efde131c7aa84acb077768138351ea5b722d9",
+        "sha256_in_prefix": "23192ecca9c0e70460e15a9e295efde131c7aa84acb077768138351ea5b722d9",
+        "size_in_bytes": 4559
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_guest_mode.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a02d00892bb151d63f592b4cb04c1408f35d3ed82d9c5fb2afc3648eac69840",
+        "sha256_in_prefix": "9a02d00892bb151d63f592b4cb04c1408f35d3ed82d9c5fb2afc3648eac69840",
+        "size_in_bytes": 42577
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_instrumentation.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b968c5752a7f77da141b33f0b43948498553a0dfaa410dda4a85abe5015ae692",
+        "sha256_in_prefix": "b968c5752a7f77da141b33f0b43948498553a0dfaa410dda4a85abe5015ae692",
+        "size_in_bytes": 17908
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_io.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "635a34ac66cc16caa37a5d5543d674733cf3847c753e382fc6b019c79b017f4b",
+        "sha256_in_prefix": "635a34ac66cc16caa37a5d5543d674733cf3847c753e382fc6b019c79b017f4b",
+        "size_in_bytes": 28111
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_ki.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1108573cbb6cb49911ab58d6a3d70243533c42d3eb8988b0f90ca9c5aed5a853",
+        "sha256_in_prefix": "1108573cbb6cb49911ab58d6a3d70243533c42d3eb8988b0f90ca9c5aed5a853",
+        "size_in_bytes": 36925
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_local.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "592539b3574d473b7071b97d5b93614494c7ff709bbf784ed564e955fcf9c808",
+        "sha256_in_prefix": "592539b3574d473b7071b97d5b93614494c7ff709bbf784ed564e955fcf9c808",
+        "size_in_bytes": 7250
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_mock_clock.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "98c288088473774437abcc19760b8d7919882a6ce73da4af19e712ec75ba0764",
+        "sha256_in_prefix": "98c288088473774437abcc19760b8d7919882a6ce73da4af19e712ec75ba0764",
+        "size_in_bytes": 9010
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_parking_lot.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7e35fba5cae7da3b24b7e3146d48c883a20c9d07648692879e700f3376f4eb2",
+        "sha256_in_prefix": "f7e35fba5cae7da3b24b7e3146d48c883a20c9d07648692879e700f3376f4eb2",
+        "size_in_bytes": 20367
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_run.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b2352049abf126cb8b9fce07a52ecec94eb7310a613f2346fd0b27d4a8f161b",
+        "sha256_in_prefix": "4b2352049abf126cb8b9fce07a52ecec94eb7310a613f2346fd0b27d4a8f161b",
+        "size_in_bytes": 187379
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_thread_cache.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5b05f25138ba68b1ea4306bcd36a2afb7c475fb4820f1537d97bf18f0ef0e98",
+        "sha256_in_prefix": "b5b05f25138ba68b1ea4306bcd36a2afb7c475fb4820f1537d97bf18f0ef0e98",
+        "size_in_bytes": 12710
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_tutil.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f285b25d241f3d38f2fdb95f1edb0bfbb2f932d6e3e95d0d37c9362106be06e7",
+        "sha256_in_prefix": "f285b25d241f3d38f2fdb95f1edb0bfbb2f932d6e3e95d0d37c9362106be06e7",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_unbounded_queue.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bd4efd71c0368c584285cb032f7acf84bd8ee6c72a98118e9700b632da0578b",
+        "sha256_in_prefix": "9bd4efd71c0368c584285cb032f7acf84bd8ee6c72a98118e9700b632da0578b",
+        "size_in_bytes": 9371
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/test_windows.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf4c42969bbfde3cfc7758e2b8197835295cb3c96605c38a3d1cb8f610e1846a",
+        "sha256_in_prefix": "cf4c42969bbfde3cfc7758e2b8197835295cb3c96605c38a3d1cb8f610e1846a",
+        "size_in_bytes": 20367
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/__pycache__/tutil.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "87adb2b198006f0b995714b614f728eb741ab495b68386621bcdeb46e7387cdb",
+        "sha256_in_prefix": "87adb2b198006f0b995714b614f728eb741ab495b68386621bcdeb46e7387cdb",
+        "size_in_bytes": 4343
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_asyncgen.py",
+        "path_type": "hardlink",
+        "sha256": "ba43e0eeabc35dd945e830baa25c69ca0fedf39014ddbb86fac67efdaf978e7b",
+        "sha256_in_prefix": "ba43e0eeabc35dd945e830baa25c69ca0fedf39014ddbb86fac67efdaf978e7b",
+        "size_in_bytes": 11659
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_cancelled.py",
+        "path_type": "hardlink",
+        "sha256": "93bd700baffcd7059f8a0cf1aaa4679cd277613896e8de1a1830036c56db853f",
+        "sha256_in_prefix": "93bd700baffcd7059f8a0cf1aaa4679cd277613896e8de1a1830036c56db853f",
+        "size_in_bytes": 7582
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_exceptiongroup_gc.py",
+        "path_type": "hardlink",
+        "sha256": "e3540e8f4b82a509efe9be4ce2e8923e7e84d5219f2e01906730babf65388385",
+        "sha256_in_prefix": "e3540e8f4b82a509efe9be4ce2e8923e7e84d5219f2e01906730babf65388385",
+        "size_in_bytes": 2845
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_guest_mode.py",
+        "path_type": "hardlink",
+        "sha256": "3e88ee821603583a7735fd426c8b57a107d76493a5e8d1480da4e5e71ccec075",
+        "sha256_in_prefix": "3e88ee821603583a7735fd426c8b57a107d76493a5e8d1480da4e5e71ccec075",
+        "size_in_bytes": 25672
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_instrumentation.py",
+        "path_type": "hardlink",
+        "sha256": "6f6407ea330426b3c5f47903765f58450fba1f30081f8a74a6033b3645218fc6",
+        "sha256_in_prefix": "6f6407ea330426b3c5f47903765f58450fba1f30081f8a74a6033b3645218fc6",
+        "size_in_bytes": 9681
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_io.py",
+        "path_type": "hardlink",
+        "sha256": "d70eb55c100d0182a40a44a0608fde97be02f20a07fb7cee91b0a2fbf98d7ede",
+        "sha256_in_prefix": "d70eb55c100d0182a40a44a0608fde97be02f20a07fb7cee91b0a2fbf98d7ede",
+        "size_in_bytes": 17673
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_ki.py",
+        "path_type": "hardlink",
+        "sha256": "151dbc1987a18e853c58c36624fcb24096cbc9422d202afca15737989aecb60b",
+        "sha256_in_prefix": "151dbc1987a18e853c58c36624fcb24096cbc9422d202afca15737989aecb60b",
+        "size_in_bytes": 21345
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_local.py",
+        "path_type": "hardlink",
+        "sha256": "a445fb24e5a9dad6046d71b50a8b7569165d0daaee6041a6e53e6bbe26500dc8",
+        "sha256_in_prefix": "a445fb24e5a9dad6046d71b50a8b7569165d0daaee6041a6e53e6bbe26500dc8",
+        "size_in_bytes": 2891
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_mock_clock.py",
+        "path_type": "hardlink",
+        "sha256": "90defdb48f1895ee110e3d88f84394d5b5cb91e44bb877dc42271289ea070d88",
+        "sha256_in_prefix": "90defdb48f1895ee110e3d88f84394d5b5cb91e44bb877dc42271289ea070d88",
+        "size_in_bytes": 5827
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_parking_lot.py",
+        "path_type": "hardlink",
+        "sha256": "1ac62909445339a5fc533604a7d3fdeb5955a84578e17036c57910f219e22aa0",
+        "sha256_in_prefix": "1ac62909445339a5fc533604a7d3fdeb5955a84578e17036c57910f219e22aa0",
+        "size_in_bytes": 12037
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_run.py",
+        "path_type": "hardlink",
+        "sha256": "e013d7f34e4b9c0c4a72d392c5e7a5a6be105fa33d34101d2c62789efa438585",
+        "sha256_in_prefix": "e013d7f34e4b9c0c4a72d392c5e7a5a6be105fa33d34101d2c62789efa438585",
+        "size_in_bytes": 103525
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_thread_cache.py",
+        "path_type": "hardlink",
+        "sha256": "c2560d90efe0b7c40c93a55fc7914efa7d13d8adf055af152c2150e069570639",
+        "sha256_in_prefix": "c2560d90efe0b7c40c93a55fc7914efa7d13d8adf055af152c2150e069570639",
+        "size_in_bytes": 7428
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_tutil.py",
+        "path_type": "hardlink",
+        "sha256": "7cd8c875a331e69558182f06314d3e6118620b865916b63e8912817da43d94ad",
+        "sha256_in_prefix": "7cd8c875a331e69558182f06314d3e6118620b865916b63e8912817da43d94ad",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_unbounded_queue.py",
+        "path_type": "hardlink",
+        "sha256": "7911d1a246ea02d17a934bbb35fb264ad67961aa7f8e833fab6c782abc64608a",
+        "sha256_in_prefix": "7911d1a246ea02d17a934bbb35fb264ad67961aa7f8e833fab6c782abc64608a",
+        "size_in_bytes": 4323
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/test_windows.py",
+        "path_type": "hardlink",
+        "sha256": "8edff54068f29a222341d321af028c24a362365d95f140d3d8180660c9f5c37d",
+        "sha256_in_prefix": "8edff54068f29a222341d321af028c24a362365d95f140d3d8180660c9f5c37d",
+        "size_in_bytes": 10628
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/tutil.py",
+        "path_type": "hardlink",
+        "sha256": "b3de05561b546b976a81a51800a71fe6342a888e555338b47a393215c0944cd3",
+        "sha256_in_prefix": "b3de05561b546b976a81a51800a71fe6342a888e555338b47a393215c0944cd3",
+        "size_in_bytes": 4026
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/type_tests/__pycache__/nursery_start.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "76ef1e7f5a77a2ae5efd4fc60efa35cd6a09ea5591fa6f1be4f96f86ac2aca1b",
+        "sha256_in_prefix": "76ef1e7f5a77a2ae5efd4fc60efa35cd6a09ea5591fa6f1be4f96f86ac2aca1b",
+        "size_in_bytes": 3584
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/type_tests/__pycache__/run.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f34634c8b3134f9c02f1cba3fd95fc4f7d93b525cbfea028392d4044e01374f7",
+        "sha256_in_prefix": "f34634c8b3134f9c02f1cba3fd95fc4f7d93b525cbfea028392d4044e01374f7",
+        "size_in_bytes": 2088
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/type_tests/nursery_start.py",
+        "path_type": "hardlink",
+        "sha256": "fca3e17b13ff481292ba3b078897315df849738904ed0ff7cdefdbd4e54b0a35",
+        "sha256_in_prefix": "fca3e17b13ff481292ba3b078897315df849738904ed0ff7cdefdbd4e54b0a35",
+        "size_in_bytes": 2094
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_tests/type_tests/run.py",
+        "path_type": "hardlink",
+        "sha256": "2ec32c5ecc9cc46c708cfe5d11fd931def0aa7f05cd3743691c10433ff34e39e",
+        "sha256_in_prefix": "2ec32c5ecc9cc46c708cfe5d11fd931def0aa7f05cd3743691c10433ff34e39e",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_thread_cache.py",
+        "path_type": "hardlink",
+        "sha256": "0e05975c6e8e37daf18e9c6aa84385cea4ab78f41018e7626eabf574d9fced6d",
+        "sha256_in_prefix": "0e05975c6e8e37daf18e9c6aa84385cea4ab78f41018e7626eabf574d9fced6d",
+        "size_in_bytes": 11917
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_traps.py",
+        "path_type": "hardlink",
+        "sha256": "d87c8f10b72a5f8ac448de6d5cb96857b69a4b5927f17980c994d32cb7d51d94",
+        "sha256_in_prefix": "d87c8f10b72a5f8ac448de6d5cb96857b69a4b5927f17980c994d32cb7d51d94",
+        "size_in_bytes": 12467
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_unbounded_queue.py",
+        "path_type": "hardlink",
+        "sha256": "db863d70b1b28a5c0b1e01a89f57fb95ea580662662e82910a2eba7cf4e54340",
+        "sha256_in_prefix": "db863d70b1b28a5c0b1e01a89f57fb95ea580662662e82910a2eba7cf4e54340",
+        "size_in_bytes": 5026
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_wakeup_socketpair.py",
+        "path_type": "hardlink",
+        "sha256": "f673547dcb8337d0cc27a89ee771ab94fce99f9eb96553d07b6252ad2ca66eb6",
+        "sha256_in_prefix": "f673547dcb8337d0cc27a89ee771ab94fce99f9eb96553d07b6252ad2ca66eb6",
+        "size_in_bytes": 2882
+      },
+      {
+        "_path": "Lib/site-packages/trio/_core/_windows_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "f85fc2c2b3f3f3dfccafe55ac1189e9f5938bc6c510bb995e81d94d9fe3b3937",
+        "sha256_in_prefix": "f85fc2c2b3f3f3dfccafe55ac1189e9f5938bc6c510bb995e81d94d9fe3b3937",
+        "size_in_bytes": 8750
+      },
+      {
+        "_path": "Lib/site-packages/trio/_deprecate.py",
+        "path_type": "hardlink",
+        "sha256": "98e041a096c402ef9cfd318eb00f62d7d236a70f250963b71efb2472aae7c04c",
+        "sha256_in_prefix": "98e041a096c402ef9cfd318eb00f62d7d236a70f250963b71efb2472aae7c04c",
+        "size_in_bytes": 5456
+      },
+      {
+        "_path": "Lib/site-packages/trio/_dtls.py",
+        "path_type": "hardlink",
+        "sha256": "9b41c10a7f417e6ba90b36cb8b079db7151578c78061e2f1d6d9121b93ffa2e9",
+        "sha256_in_prefix": "9b41c10a7f417e6ba90b36cb8b079db7151578c78061e2f1d6d9121b93ffa2e9",
+        "size_in_bytes": 54107
+      },
+      {
+        "_path": "Lib/site-packages/trio/_file_io.py",
+        "path_type": "hardlink",
+        "sha256": "fa504db96de8690f4aa661b04529405a648e20a473cdfc601ee4b456f24f389e",
+        "sha256_in_prefix": "fa504db96de8690f4aa661b04529405a648e20a473cdfc601ee4b456f24f389e",
+        "size_in_bytes": 15607
+      },
+      {
+        "_path": "Lib/site-packages/trio/_highlevel_generic.py",
+        "path_type": "hardlink",
+        "sha256": "a2fe27a7da4fd2efc15016608818175444a91d2f2e133ec68f03f83f8e9513e0",
+        "sha256_in_prefix": "a2fe27a7da4fd2efc15016608818175444a91d2f2e133ec68f03f83f8e9513e0",
+        "size_in_bytes": 4734
+      },
+      {
+        "_path": "Lib/site-packages/trio/_highlevel_open_tcp_listeners.py",
+        "path_type": "hardlink",
+        "sha256": "9e24a6820ac81c72fe515af0d5dddb001726cec526dab7bde374c7c336b7cd03",
+        "sha256_in_prefix": "9e24a6820ac81c72fe515af0d5dddb001726cec526dab7bde374c7c336b7cd03",
+        "size_in_bytes": 9994
+      },
+      {
+        "_path": "Lib/site-packages/trio/_highlevel_open_tcp_stream.py",
+        "path_type": "hardlink",
+        "sha256": "04a9ae496d1bc37cc8a0c27ef92db613449589e0815673a651bc3ab92eaff3a4",
+        "sha256_in_prefix": "04a9ae496d1bc37cc8a0c27ef92db613449589e0815673a651bc3ab92eaff3a4",
+        "size_in_bytes": 18470
+      },
+      {
+        "_path": "Lib/site-packages/trio/_highlevel_open_unix_stream.py",
+        "path_type": "hardlink",
+        "sha256": "85a046876295b1f923b012f763a833aaf641591127c783775f6c755a93061405",
+        "sha256_in_prefix": "85a046876295b1f923b012f763a833aaf641591127c783775f6c755a93061405",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "Lib/site-packages/trio/_highlevel_serve_listeners.py",
+        "path_type": "hardlink",
+        "sha256": "d6cd7dba6d3875e7c714606d302bc44681b55c2b166177af64b86c43852a0560",
+        "sha256_in_prefix": "d6cd7dba6d3875e7c714606d302bc44681b55c2b166177af64b86c43852a0560",
+        "size_in_bytes": 5186
+      },
+      {
+        "_path": "Lib/site-packages/trio/_highlevel_socket.py",
+        "path_type": "hardlink",
+        "sha256": "f55b9b6ae957763cc4d4c0bbd3e29763509fa8377a05d3cb9aebb8af2da14b89",
+        "sha256_in_prefix": "f55b9b6ae957763cc4d4c0bbd3e29763509fa8377a05d3cb9aebb8af2da14b89",
+        "size_in_bytes": 16072
+      },
+      {
+        "_path": "Lib/site-packages/trio/_highlevel_ssl_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "9bf1f37afbc5e81557e11c17fd0ab8dfbe9cec3c6c5a813cc2356ed516fd8c76",
+        "sha256_in_prefix": "9bf1f37afbc5e81557e11c17fd0ab8dfbe9cec3c6c5a813cc2356ed516fd8c76",
+        "size_in_bytes": 6535
+      },
+      {
+        "_path": "Lib/site-packages/trio/_path.py",
+        "path_type": "hardlink",
+        "sha256": "c8e6b1782de7992292c9dab1bf7ed6e53379c64ec72e9a4c42f551c232088292",
+        "sha256_in_prefix": "c8e6b1782de7992292c9dab1bf7ed6e53379c64ec72e9a4c42f551c232088292",
+        "size_in_bytes": 9515
+      },
+      {
+        "_path": "Lib/site-packages/trio/_repl.py",
+        "path_type": "hardlink",
+        "sha256": "62fb45279f98ee256ed2f89f6678adee093832257e24c0fe1417fcbaf3800a92",
+        "sha256_in_prefix": "62fb45279f98ee256ed2f89f6678adee093832257e24c0fe1417fcbaf3800a92",
+        "size_in_bytes": 5704
+      },
+      {
+        "_path": "Lib/site-packages/trio/_signals.py",
+        "path_type": "hardlink",
+        "sha256": "c2e98122fd4c9952e2905ecd2315720f14d9c4d5dc136248e6f8d1107e05835f",
+        "sha256_in_prefix": "c2e98122fd4c9952e2905ecd2315720f14d9c4d5dc136248e6f8d1107e05835f",
+        "size_in_bytes": 7187
+      },
+      {
+        "_path": "Lib/site-packages/trio/_socket.py",
+        "path_type": "hardlink",
+        "sha256": "8c4cd65f879d0ebff8e5aa13cd0945c77957637ea5c1fb0afb45e3ca78dd39e7",
+        "sha256_in_prefix": "8c4cd65f879d0ebff8e5aa13cd0945c77957637ea5c1fb0afb45e3ca78dd39e7",
+        "size_in_bytes": 45448
+      },
+      {
+        "_path": "Lib/site-packages/trio/_ssl.py",
+        "path_type": "hardlink",
+        "sha256": "02faf37ff963c131cb3f5cfe8027c3a0774ca828d54d38b049b507e3036a69e7",
+        "sha256_in_prefix": "02faf37ff963c131cb3f5cfe8027c3a0774ca828d54d38b049b507e3036a69e7",
+        "size_in_bytes": 45837
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess.py",
+        "path_type": "hardlink",
+        "sha256": "44b32971a0fe3e03d00d1155c0dfee25e8df0fc955bd4e4cf4522d612f6afda9",
+        "sha256_in_prefix": "44b32971a0fe3e03d00d1155c0dfee25e8df0fc955bd4e4cf4522d612f6afda9",
+        "size_in_bytes": 53146
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess_platform/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "331fd6fc7fb5c371dece35b9a254e314b50af7a8168e932508e26ffe48c1e9fb",
+        "sha256_in_prefix": "331fd6fc7fb5c371dece35b9a254e314b50af7a8168e932508e26ffe48c1e9fb",
+        "size_in_bytes": 4699
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess_platform/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "041c1d407f6d8ce8663bbfce42c0a2ff462c9921e9b86bc46b3782e9c8cc9da3",
+        "sha256_in_prefix": "041c1d407f6d8ce8663bbfce42c0a2ff462c9921e9b86bc46b3782e9c8cc9da3",
+        "size_in_bytes": 5092
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess_platform/__pycache__/kqueue.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a52133055fba7020c6c227f302b28d85ebfe76d8ccd2ba8e201392ef1ebe094c",
+        "sha256_in_prefix": "a52133055fba7020c6c227f302b28d85ebfe76d8ccd2ba8e201392ef1ebe094c",
+        "size_in_bytes": 2200
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess_platform/__pycache__/waitid.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "910dd4880bf0c94754a83c99cac75b4d6daceda58e22d992c65396f597c042da",
+        "sha256_in_prefix": "910dd4880bf0c94754a83c99cac75b4d6daceda58e22d992c65396f597c042da",
+        "size_in_bytes": 3467
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess_platform/__pycache__/windows.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "14d292b1ed6ced8735064a8f3eae8dc6b1ee7efc1d3ee9dbdec72d267a6f3d58",
+        "sha256_in_prefix": "14d292b1ed6ced8735064a8f3eae8dc6b1ee7efc1d3ee9dbdec72d267a6f3d58",
+        "size_in_bytes": 640
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess_platform/kqueue.py",
+        "path_type": "hardlink",
+        "sha256": "56ca1415487e96a5e794d194ca67c9e222f4dc3c9c90ac023066cb71630618d8",
+        "sha256_in_prefix": "56ca1415487e96a5e794d194ca67c9e222f4dc3c9c90ac023066cb71630618d8",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess_platform/waitid.py",
+        "path_type": "hardlink",
+        "sha256": "0f268eaab1d8e263e697c19433a17fcc7bae4725c9c498f2379c58af57c7370c",
+        "sha256_in_prefix": "0f268eaab1d8e263e697c19433a17fcc7bae4725c9c498f2379c58af57c7370c",
+        "size_in_bytes": 3888
+      },
+      {
+        "_path": "Lib/site-packages/trio/_subprocess_platform/windows.py",
+        "path_type": "hardlink",
+        "sha256": "70717fd1829c952845b4510431b95a9b6f16e0e22a5395fb5a86496edbd53692",
+        "sha256_in_prefix": "70717fd1829c952845b4510431b95a9b6f16e0e22a5395fb5a86496edbd53692",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "Lib/site-packages/trio/_sync.py",
+        "path_type": "hardlink",
+        "sha256": "612b93fb4633a6bd0e45fa75b025ad475cb9c118de0f3d7be7ae75dc7c8cedee",
+        "sha256_in_prefix": "612b93fb4633a6bd0e45fa75b025ad475cb9c118de0f3d7be7ae75dc7c8cedee",
+        "size_in_bytes": 32260
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e553fbefb4f9248a47d986c51c83c3e083d3ee96a8f784d80dd0f32abbab1863",
+        "sha256_in_prefix": "e553fbefb4f9248a47d986c51c83c3e083d3ee96a8f784d80dd0f32abbab1863",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/check_type_completeness.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3beb50758a8cd2d4423d9c4049c462f973a3317e4b4804811b6dcdc5bd33c299",
+        "sha256_in_prefix": "3beb50758a8cd2d4423d9c4049c462f973a3317e4b4804811b6dcdc5bd33c299",
+        "size_in_bytes": 8802
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/module_with_deprecations.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e229a1a0ee07088f9975c192c0f785ed61754333160948b8340c02a8d409d8ce",
+        "sha256_in_prefix": "e229a1a0ee07088f9975c192c0f785ed61754333160948b8340c02a8d409d8ce",
+        "size_in_bytes": 739
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/pytest_plugin.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f50310aa9d7f29a501b106cef0e73153eb14919f128316b5c7a407af40cef77",
+        "sha256_in_prefix": "5f50310aa9d7f29a501b106cef0e73153eb14919f128316b5c7a407af40cef77",
+        "size_in_bytes": 2299
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_abc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "07706d3f424a9beabda81ce5b02554b1ff57caf3c48746b846671ffcfebce6a5",
+        "sha256_in_prefix": "07706d3f424a9beabda81ce5b02554b1ff57caf3c48746b846671ffcfebce6a5",
+        "size_in_bytes": 3737
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_channel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "332b107711ec0f5e74450702f1953362406b433586ce1509bfb61e0559d1fa9b",
+        "sha256_in_prefix": "332b107711ec0f5e74450702f1953362406b433586ce1509bfb61e0559d1fa9b",
+        "size_in_bytes": 54954
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_contextvars.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea0420c1688af001cb94fd257281dce16991983ca4e970fc1dd454e6f4e93171",
+        "sha256_in_prefix": "ea0420c1688af001cb94fd257281dce16991983ca4e970fc1dd454e6f4e93171",
+        "size_in_bytes": 3467
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_deprecate.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "281588afa5136798a8905eab7085a2ff114116184688b1209df441a297465107",
+        "sha256_in_prefix": "281588afa5136798a8905eab7085a2ff114116184688b1209df441a297465107",
+        "size_in_bytes": 13954
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_deprecate_strict_exception_groups_false.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "868439493b61eb1931e1029d81baa8556c548cc3652d6b19e9dcda31b92c49b4",
+        "sha256_in_prefix": "868439493b61eb1931e1029d81baa8556c548cc3652d6b19e9dcda31b92c49b4",
+        "size_in_bytes": 4328
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_dtls.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "594c0ec4624a1fe9e15187c5a650e296281bf6ba9d9d3d74ef9678e046a7816f",
+        "sha256_in_prefix": "594c0ec4624a1fe9e15187c5a650e296281bf6ba9d9d3d74ef9678e046a7816f",
+        "size_in_bytes": 55518
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_exports.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2816f1a72b4fbdaa9291eb7645469d26bbeb79160f0e0e12f895eb6d40983b3",
+        "sha256_in_prefix": "b2816f1a72b4fbdaa9291eb7645469d26bbeb79160f0e0e12f895eb6d40983b3",
+        "size_in_bytes": 24414
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_fakenet.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7bd3cbad6b80bed4ddb8725010540851de085f0bca9373d7d64a72805e2bfaf",
+        "sha256_in_prefix": "a7bd3cbad6b80bed4ddb8725010540851de085f0bca9373d7d64a72805e2bfaf",
+        "size_in_bytes": 18927
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_file_io.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5018448eb47a50dcd946e65e4448688516239f623f114ce75bfc544d74e8d16",
+        "sha256_in_prefix": "b5018448eb47a50dcd946e65e4448688516239f623f114ce75bfc544d74e8d16",
+        "size_in_bytes": 13416
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_generic.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf53791978e4c760826e777961e593bf3427f5329818e75b1bfdd8bd4cd8c8df",
+        "sha256_in_prefix": "cf53791978e4c760826e777961e593bf3427f5329818e75b1bfdd8bd4cd8c8df",
+        "size_in_bytes": 6500
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_open_tcp_listeners.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "60a3310d889621de0283ae9096b2caeb497056f5cd2039073cc86d09bc2a04bc",
+        "sha256_in_prefix": "60a3310d889621de0283ae9096b2caeb497056f5cd2039073cc86d09bc2a04bc",
+        "size_in_bytes": 21603
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_open_tcp_stream.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1e2c6e22e797b562d5a3e0accc572dfdb059c90579205dd1ce72ebb726f2ee3",
+        "sha256_in_prefix": "d1e2c6e22e797b562d5a3e0accc572dfdb059c90579205dd1ce72ebb726f2ee3",
+        "size_in_bytes": 28967
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_open_unix_stream.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d95e5ea78ede2f824af86510e10bbfd0ace053da3e80bdf2259d613d92becb3",
+        "sha256_in_prefix": "9d95e5ea78ede2f824af86510e10bbfd0ace053da3e80bdf2259d613d92becb3",
+        "size_in_bytes": 5106
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_serve_listeners.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "92a5942a43e5aeb99342f3ac9510c42a3293666af91e120722c2879343d4c42b",
+        "sha256_in_prefix": "92a5942a43e5aeb99342f3ac9510c42a3293666af91e120722c2879343d4c42b",
+        "size_in_bytes": 11763
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_socket.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "af698e326dd6c9ed034a43bf0c1717e85ac00b506efebdd671f7111b979d7254",
+        "sha256_in_prefix": "af698e326dd6c9ed034a43bf0c1717e85ac00b506efebdd671f7111b979d7254",
+        "size_in_bytes": 18447
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_highlevel_ssl_helpers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fe8029ab9065376122ebe9a86f2ff171583976e540175628931fe90fdb95824",
+        "sha256_in_prefix": "6fe8029ab9065376122ebe9a86f2ff171583976e540175628931fe90fdb95824",
+        "size_in_bytes": 8309
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_path.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bab6f938db962ed9e186e9f1df22e3e65c9a628e93a2620549abafe9e37adab",
+        "sha256_in_prefix": "8bab6f938db962ed9e186e9f1df22e3e65c9a628e93a2620549abafe9e37adab",
+        "size_in_bytes": 15104
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_repl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "40d1908bb896c3baecf1b0933edd0e0ea5cb4c240810eed8b147f541f6e1a858",
+        "sha256_in_prefix": "40d1908bb896c3baecf1b0933edd0e0ea5cb4c240810eed8b147f541f6e1a858",
+        "size_in_bytes": 17143
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_scheduler_determinism.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb3f8c876c15678e425f792b0e49d3c64ef23f4cd9e43f5e358782a4b9cb0795",
+        "sha256_in_prefix": "fb3f8c876c15678e425f792b0e49d3c64ef23f4cd9e43f5e358782a4b9cb0795",
+        "size_in_bytes": 3247
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_signals.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e5eaae11ca777328ce2c7596f54200ad4ff09f9cf35ac08c752f3379c84f861",
+        "sha256_in_prefix": "0e5eaae11ca777328ce2c7596f54200ad4ff09f9cf35ac08c752f3379c84f861",
+        "size_in_bytes": 12850
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_socket.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4f2cdee1356963da54652d9adaecb6c14a22a894c32ceb8a34d4900ebf52a1f",
+        "sha256_in_prefix": "a4f2cdee1356963da54652d9adaecb6c14a22a894c32ceb8a34d4900ebf52a1f",
+        "size_in_bytes": 69974
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_ssl.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f538248be6995b56b2c19b674db0ec57e295b49cfd8893d60d75fecaa4a69ff",
+        "sha256_in_prefix": "0f538248be6995b56b2c19b674db0ec57e295b49cfd8893d60d75fecaa4a69ff",
+        "size_in_bytes": 75145
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_subprocess.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2d850ce1542e16c7869eec739543b6b6471de6f615fc59281d80eab63f184d6",
+        "sha256_in_prefix": "b2d850ce1542e16c7869eec739543b6b6471de6f615fc59281d80eab63f184d6",
+        "size_in_bytes": 46988
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_sync.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "97fde6d5a26588ec47a8e73a44824aebd5bb934acb5124a805040ba02e4d759f",
+        "sha256_in_prefix": "97fde6d5a26588ec47a8e73a44824aebd5bb934acb5124a805040ba02e4d759f",
+        "size_in_bytes": 43537
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_testing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecc9ce7661c35ecdc9f9900049ac483170694ee50cea17596a759c5ad0899009",
+        "sha256_in_prefix": "ecc9ce7661c35ecdc9f9900049ac483170694ee50cea17596a759c5ad0899009",
+        "size_in_bytes": 44177
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_testing_raisesgroup.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8380f68c8b102e760cc63b6693f0ab59892e771f9f804cc4802bf0306663441",
+        "sha256_in_prefix": "f8380f68c8b102e760cc63b6693f0ab59892e771f9f804cc4802bf0306663441",
+        "size_in_bytes": 50258
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_threads.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4a167e428e9d3484d94228d8b723bf30f3994a3ab492b551d4652d472838a2b",
+        "sha256_in_prefix": "c4a167e428e9d3484d94228d8b723bf30f3994a3ab492b551d4652d472838a2b",
+        "size_in_bytes": 63907
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_timeouts.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1b300df92d332beff6eab68975e66a6acd832859de791e1d5457bf370526a1f",
+        "sha256_in_prefix": "f1b300df92d332beff6eab68975e66a6acd832859de791e1d5457bf370526a1f",
+        "size_in_bytes": 14948
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_tracing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b77129a1ceefa138f0289acbd0cbdc6c6cc1646828234e123aff3d39a64d2003",
+        "sha256_in_prefix": "b77129a1ceefa138f0289acbd0cbdc6c6cc1646828234e123aff3d39a64d2003",
+        "size_in_bytes": 5023
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_trio.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8843a32a42ab2a394f538b0c2630b6eafe9e4d65b98dde288eadf1909945eff3",
+        "sha256_in_prefix": "8843a32a42ab2a394f538b0c2630b6eafe9e4d65b98dde288eadf1909945eff3",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_unix_pipes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5a8d8cd8fa1c9e6dd81582db2c46cefc4107ddd5d2eff08e2e630a89c7d71f8",
+        "sha256_in_prefix": "c5a8d8cd8fa1c9e6dd81582db2c46cefc4107ddd5d2eff08e2e630a89c7d71f8",
+        "size_in_bytes": 17311
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_util.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b057c1fc5e8e0861c7f1352b7f9b2812aa98cba97c842a163a95ae86b79c96d",
+        "sha256_in_prefix": "2b057c1fc5e8e0861c7f1352b7f9b2812aa98cba97c842a163a95ae86b79c96d",
+        "size_in_bytes": 19048
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_wait_for_object.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "99b354dbf4a1d5d53472a64f26b61e245956d1430c1cce7961f88d13bb4e3a6d",
+        "sha256_in_prefix": "99b354dbf4a1d5d53472a64f26b61e245956d1430c1cce7961f88d13bb4e3a6d",
+        "size_in_bytes": 12564
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/__pycache__/test_windows_pipes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "47adb264e4b778765f37229c4468a260618bb1489265dcab39992d331b56cd4f",
+        "sha256_in_prefix": "47adb264e4b778765f37229c4468a260618bb1489265dcab39992d331b56cd4f",
+        "size_in_bytes": 11518
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/astrill-codesigning-cert.cer",
+        "path_type": "hardlink",
+        "sha256": "1103b38423f43540afa03515c9811f129d431a86909859650a4b7ef3a1b3c01d",
+        "sha256_in_prefix": "1103b38423f43540afa03515c9811f129d431a86909859650a4b7ef3a1b3c01d",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/check_type_completeness.py",
+        "path_type": "hardlink",
+        "sha256": "8d03a7cd7a775a7ff371b71e7f9a77f0a0e04f0cca17810a14d249153cb0d6d7",
+        "sha256_in_prefix": "8d03a7cd7a775a7ff371b71e7f9a77f0a0e04f0cca17810a14d249153cb0d6d7",
+        "size_in_bytes": 9846
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/module_with_deprecations.py",
+        "path_type": "hardlink",
+        "sha256": "f20edd1ca0eef0f9b1b91141e3a698d2211af7ec399e9dd0c2e659865860e8cc",
+        "sha256_in_prefix": "f20edd1ca0eef0f9b1b91141e3a698d2211af7ec399e9dd0c2e659865860e8cc",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/pytest_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "0f5fb96b047d6005c6c3db68a5f2f2fdcb21960c8fa7220ce61597527d58cd4f",
+        "sha256_in_prefix": "0f5fb96b047d6005c6c3db68a5f2f2fdcb21960c8fa7220ce61597527d58cd4f",
+        "size_in_bytes": 1581
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_abc.py",
+        "path_type": "hardlink",
+        "sha256": "d2d84008db36c49a0e8899d3c3b27511b328791480e01962d5b2278be89d8e80",
+        "sha256_in_prefix": "d2d84008db36c49a0e8899d3c3b27511b328791480e01962d5b2278be89d8e80",
+        "size_in_bytes": 2034
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_channel.py",
+        "path_type": "hardlink",
+        "sha256": "53c9b4bb70984cf24e48660ed2bfaf40ed98a2c37b69d8b3d18e625fe9deae0c",
+        "sha256_in_prefix": "53c9b4bb70984cf24e48660ed2bfaf40ed98a2c37b69d8b3d18e625fe9deae0c",
+        "size_in_bytes": 23169
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_contextvars.py",
+        "path_type": "hardlink",
+        "sha256": "10086a6328cc2903913e617ecdf67490e851d75f2f4c52b03754ba1e774bb4e9",
+        "sha256_in_prefix": "10086a6328cc2903913e617ecdf67490e851d75f2f4c52b03754ba1e774bb4e9",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_deprecate.py",
+        "path_type": "hardlink",
+        "sha256": "d4eedcd3fd12010f235f7041878c75525d49b4fb10ccb31058088f0ae77dda6c",
+        "sha256_in_prefix": "d4eedcd3fd12010f235f7041878c75525d49b4fb10ccb31058088f0ae77dda6c",
+        "size_in_bytes": 8420
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_deprecate_strict_exception_groups_false.py",
+        "path_type": "hardlink",
+        "sha256": "f15eb760626491452047dadaf5a9c7c07e70f21238992cd44957fb88871e94dc",
+        "sha256_in_prefix": "f15eb760626491452047dadaf5a9c7c07e70f21238992cd44957fb88871e94dc",
+        "size_in_bytes": 1874
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_dtls.py",
+        "path_type": "hardlink",
+        "sha256": "197e608688bc26883bbb7364d36bc855de9d0a82f0ff48ee1a1c9283b7b2836d",
+        "sha256_in_prefix": "197e608688bc26883bbb7364d36bc855de9d0a82f0ff48ee1a1c9283b7b2836d",
+        "size_in_bytes": 36040
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_exports.py",
+        "path_type": "hardlink",
+        "sha256": "2726e95caa393b680bc84674bc9d8512336645e64932a76446f7e503f385369a",
+        "sha256_in_prefix": "2726e95caa393b680bc84674bc9d8512336645e64932a76446f7e503f385369a",
+        "size_in_bytes": 23102
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_fakenet.py",
+        "path_type": "hardlink",
+        "sha256": "bdf7c058608bbb796cb387f694e27d1a5601fbba9c5f752448bc336128a967b9",
+        "sha256_in_prefix": "bdf7c058608bbb796cb387f694e27d1a5601fbba9c5f752448bc336128a967b9",
+        "size_in_bytes": 9804
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_file_io.py",
+        "path_type": "hardlink",
+        "sha256": "932333523713161c597b4b60a8d45a34a1484f85aaa7a93cc66291133b718112",
+        "sha256_in_prefix": "932333523713161c597b4b60a8d45a34a1484f85aaa7a93cc66291133b718112",
+        "size_in_bytes": 7716
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_highlevel_generic.py",
+        "path_type": "hardlink",
+        "sha256": "41f3f5ae655c30325393d63007cf897706a2849ce79abbe77cd6b754a0f6e228",
+        "sha256_in_prefix": "41f3f5ae655c30325393d63007cf897706a2849ce79abbe77cd6b754a0f6e228",
+        "size_in_bytes": 3036
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_highlevel_open_tcp_listeners.py",
+        "path_type": "hardlink",
+        "sha256": "3751aa27e6ef8a9c998de4bb1b278affb6ce7d4207ea81d26a90dbf6fe825f6b",
+        "sha256_in_prefix": "3751aa27e6ef8a9c998de4bb1b278affb6ce7d4207ea81d26a90dbf6fe825f6b",
+        "size_in_bytes": 13545
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_highlevel_open_tcp_stream.py",
+        "path_type": "hardlink",
+        "sha256": "8c821b88f5d46d3d170582a6fcdc23b4f3047b512212b6f772688df67e94ec56",
+        "sha256_in_prefix": "8c821b88f5d46d3d170582a6fcdc23b4f3047b512212b6f772688df67e94ec56",
+        "size_in_bytes": 22568
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_highlevel_open_unix_stream.py",
+        "path_type": "hardlink",
+        "sha256": "530d4ed8c3c53e614b61eba3d6d7a9310050086c767093e52c547f47651d2a30",
+        "sha256_in_prefix": "530d4ed8c3c53e614b61eba3d6d7a9310050086c767093e52c547f47651d2a30",
+        "size_in_bytes": 2445
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_highlevel_serve_listeners.py",
+        "path_type": "hardlink",
+        "sha256": "37556b53ac26e7554ef5e55ade2214184fe42c7510e4adf61d8bedd4034fa020",
+        "sha256_in_prefix": "37556b53ac26e7554ef5e55ade2214184fe42c7510e4adf61d8bedd4034fa020",
+        "size_in_bytes": 6107
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_highlevel_socket.py",
+        "path_type": "hardlink",
+        "sha256": "fad5170709d19b69e1ed85618bb8a492e2092e6b7297845e56ac38e1c3209246",
+        "sha256_in_prefix": "fad5170709d19b69e1ed85618bb8a492e2092e6b7297845e56ac38e1c3209246",
+        "size_in_bytes": 11050
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_highlevel_ssl_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "b8c6862dd09edadf71e3dc5c45d756ad6e8f15ddebef55b2f886eb762b1f4e6d",
+        "sha256_in_prefix": "b8c6862dd09edadf71e3dc5c45d756ad6e8f15ddebef55b2f886eb762b1f4e6d",
+        "size_in_bytes": 5793
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_path.py",
+        "path_type": "hardlink",
+        "sha256": "13f5077bf1b9e30536a38114189b0117b47873fde9faed232d36b652419424ca",
+        "sha256_in_prefix": "13f5077bf1b9e30536a38114189b0117b47873fde9faed232d36b652419424ca",
+        "size_in_bytes": 7850
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_repl.py",
+        "path_type": "hardlink",
+        "sha256": "548f04d890f89d30c3de8d87ee88b7cd21286a4b7b4bfbec17f385c9708b150b",
+        "sha256_in_prefix": "548f04d890f89d30c3de8d87ee88b7cd21286a4b7b4bfbec17f385c9708b150b",
+        "size_in_bytes": 13967
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_scheduler_determinism.py",
+        "path_type": "hardlink",
+        "sha256": "c927ec9f4f6c5091db7e79094f3a6d19907e092ff3689bd94ed121050bad93db",
+        "sha256_in_prefix": "c927ec9f4f6c5091db7e79094f3a6d19907e092ff3689bd94ed121050bad93db",
+        "size_in_bytes": 1320
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_signals.py",
+        "path_type": "hardlink",
+        "sha256": "215e1e56c5d2d0be1a0a6b6976c652b542d4a45ed5658a6ffc7c5be8f94c900a",
+        "sha256_in_prefix": "215e1e56c5d2d0be1a0a6b6976c652b542d4a45ed5658a6ffc7c5be8f94c900a",
+        "size_in_bytes": 7502
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_socket.py",
+        "path_type": "hardlink",
+        "sha256": "d31db031d3110967da00be936a3817292ec54af682915d70b906f6fbd2fddd77",
+        "sha256_in_prefix": "d31db031d3110967da00be936a3817292ec54af682915d70b906f6fbd2fddd77",
+        "size_in_bytes": 44690
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_ssl.py",
+        "path_type": "hardlink",
+        "sha256": "b5011e379bc4e4d69301760ba0d9c63e87593940898e1f8aca599377c2622d2f",
+        "sha256_in_prefix": "b5011e379bc4e4d69301760ba0d9c63e87593940898e1f8aca599377c2622d2f",
+        "size_in_bytes": 50973
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_subprocess.py",
+        "path_type": "hardlink",
+        "sha256": "63a3589e8e7e1fde977e0d7b5b97520816633f4ac96eb68bcd5cd5b19f7302b1",
+        "sha256_in_prefix": "63a3589e8e7e1fde977e0d7b5b97520816633f4ac96eb68bcd5cd5b19f7302b1",
+        "size_in_bytes": 26657
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_sync.py",
+        "path_type": "hardlink",
+        "sha256": "5e6ac77013cecc3a655e7636b5dcfb5e21fb292040328c463c7a62b9ac14abc2",
+        "sha256_in_prefix": "5e6ac77013cecc3a655e7636b5dcfb5e21fb292040328c463c7a62b9ac14abc2",
+        "size_in_bytes": 21796
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_testing.py",
+        "path_type": "hardlink",
+        "sha256": "3fa843528815d9ab18794182679275ee664a9a9365eff5ba97b175a0678d304f",
+        "sha256_in_prefix": "3fa843528815d9ab18794182679275ee664a9a9365eff5ba97b175a0678d304f",
+        "size_in_bytes": 20796
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_testing_raisesgroup.py",
+        "path_type": "hardlink",
+        "sha256": "34b9dcdf76960eee7fd9df9c84c3f2ced3c6b945b06b8b4276c0bdac3c2f4ad8",
+        "sha256_in_prefix": "34b9dcdf76960eee7fd9df9c84c3f2ced3c6b945b06b8b4276c0bdac3c2f4ad8",
+        "size_in_bytes": 46243
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_threads.py",
+        "path_type": "hardlink",
+        "sha256": "11de8dead1064892274fc4e16ff4fa5ae337fa466c1977f4135b17e51c3cf2c2",
+        "sha256_in_prefix": "11de8dead1064892274fc4e16ff4fa5ae337fa466c1977f4135b17e51c3cf2c2",
+        "size_in_bytes": 40459
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_timeouts.py",
+        "path_type": "hardlink",
+        "sha256": "3f6d64ae65a126c92cfd402d82721596eea3688595682989d1fc377a336f7424",
+        "sha256_in_prefix": "3f6d64ae65a126c92cfd402d82721596eea3688595682989d1fc377a336f7424",
+        "size_in_bytes": 8643
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_tracing.py",
+        "path_type": "hardlink",
+        "sha256": "c785843bdf6f30ab816bea85e982b79f24578be20cbf833f9f0c99d2d421f673",
+        "sha256_in_prefix": "c785843bdf6f30ab816bea85e982b79f24578be20cbf833f9f0c99d2d421f673",
+        "size_in_bytes": 2410
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_trio.py",
+        "path_type": "hardlink",
+        "sha256": "8868beea95e7c20af71f415993326da0a99eff35af6b12bcd6882882ac647652",
+        "sha256_in_prefix": "8868beea95e7c20af71f415993326da0a99eff35af6b12bcd6882882ac647652",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_unix_pipes.py",
+        "path_type": "hardlink",
+        "sha256": "50641d00d4b27b81972b56c72e43374dd2626446f8626be665566f54471bf38e",
+        "sha256_in_prefix": "50641d00d4b27b81972b56c72e43374dd2626446f8626be665566f54471bf38e",
+        "size_in_bytes": 10196
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "faa49c341bde0b6a4adb7dc325f4f0b1ae69f9b30c06ba6501be93ee4906b57f",
+        "sha256_in_prefix": "faa49c341bde0b6a4adb7dc325f4f0b1ae69f9b30c06ba6501be93ee4906b57f",
+        "size_in_bytes": 12061
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_wait_for_object.py",
+        "path_type": "hardlink",
+        "sha256": "e91cd7d7449e30d67b0fcffd9a8c1b157756e03999d657958719ab2f2b4cca1b",
+        "sha256_in_prefix": "e91cd7d7449e30d67b0fcffd9a8c1b157756e03999d657958719ab2f2b4cca1b",
+        "size_in_bytes": 8334
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/test_windows_pipes.py",
+        "path_type": "hardlink",
+        "sha256": "5bacee9ce55bcce18be4040ee669ae3faea379a23115113c645c4ace06d794c7",
+        "sha256_in_prefix": "5bacee9ce55bcce18be4040ee669ae3faea379a23115113c645c4ace06d794c7",
+        "size_in_bytes": 3348
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/tools/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "378b159138defc156e9ad35a4c4080ca940954bfbfbd07a0d9a72364262ca9dc",
+        "sha256_in_prefix": "378b159138defc156e9ad35a4c4080ca940954bfbfbd07a0d9a72364262ca9dc",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/tools/__pycache__/test_gen_exports.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7370c169b8795c2d71794d4d0ee881d6a694dd85d5fb4e979f2d6ffaad86aeb",
+        "sha256_in_prefix": "a7370c169b8795c2d71794d4d0ee881d6a694dd85d5fb4e979f2d6ffaad86aeb",
+        "size_in_bytes": 7086
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/tools/__pycache__/test_mypy_annotate.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0dff8ce0dcf8542f011e6010a54c767d4735aab4934b6f1430d76aa2e574e11",
+        "sha256_in_prefix": "d0dff8ce0dcf8542f011e6010a54c767d4735aab4934b6f1430d76aa2e574e11",
+        "size_in_bytes": 4371
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/tools/__pycache__/test_sync_requirements.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "068e98e9c24dcf42d749281e9859ba4334844c15f5d24aa4aee69cf381f51a63",
+        "sha256_in_prefix": "068e98e9c24dcf42d749281e9859ba4334844c15f5d24aa4aee69cf381f51a63",
+        "size_in_bytes": 2580
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/tools/test_gen_exports.py",
+        "path_type": "hardlink",
+        "sha256": "aafd1220bec0ccfdb7dc96a3ead41295e8e93175487eea813c0ad3cbd31b186e",
+        "sha256_in_prefix": "aafd1220bec0ccfdb7dc96a3ead41295e8e93175487eea813c0ad3cbd31b186e",
+        "size_in_bytes": 4982
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/tools/test_mypy_annotate.py",
+        "path_type": "hardlink",
+        "sha256": "2bf2ec049a531d25fff60ddd0ab79e3b0ae7c61ff714b8c0bd4fa482a571ff20",
+        "sha256_in_prefix": "2bf2ec049a531d25fff60ddd0ab79e3b0ae7c61ff714b8c0bd4fa482a571ff20",
+        "size_in_bytes": 4114
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/tools/test_sync_requirements.py",
+        "path_type": "hardlink",
+        "sha256": "850b16c205b033fe1cebf4aa1250625b0b56669bd8ec5f8fa0efa7c884e36b0e",
+        "sha256_in_prefix": "850b16c205b033fe1cebf4aa1250625b0b56669bd8ec5f8fa0efa7c884e36b0e",
+        "size_in_bytes": 2256
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/__pycache__/check_wraps.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "02e6de62bbf42084f1813e0d34d186eaa63f5ac371a0c466c937cf19726d69e4",
+        "sha256_in_prefix": "02e6de62bbf42084f1813e0d34d186eaa63f5ac371a0c466c937cf19726d69e4",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/__pycache__/open_memory_channel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "85cf04e7f93c90cf379898a7c18fba85a7dcb0d8e8765f9b80bae37bd230fdd8",
+        "sha256_in_prefix": "85cf04e7f93c90cf379898a7c18fba85a7dcb0d8e8765f9b80bae37bd230fdd8",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/__pycache__/path.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3933c0ee1bdf716ddd54ba7da3c708007a0384a4bd32a2b95a518bdf4bfd2e5b",
+        "sha256_in_prefix": "3933c0ee1bdf716ddd54ba7da3c708007a0384a4bd32a2b95a518bdf4bfd2e5b",
+        "size_in_bytes": 13556
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/__pycache__/raisesgroup.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "785d92e9ce44a99afead5fe634e4a53ab124a81f51ce8f2a5cfd1dd288822462",
+        "sha256_in_prefix": "785d92e9ce44a99afead5fe634e4a53ab124a81f51ce8f2a5cfd1dd288822462",
+        "size_in_bytes": 9936
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/__pycache__/subprocesses.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2db6fb8b1ebeb0e2bdcd74c08c9b829e3bde378eeafe48d131cb8651c03b635",
+        "sha256_in_prefix": "d2db6fb8b1ebeb0e2bdcd74c08c9b829e3bde378eeafe48d131cb8651c03b635",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/__pycache__/task_status.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "68ad9f1d4944c198d79cf7684633e9b1f6734321ff123bcb63bc42788971adc7",
+        "sha256_in_prefix": "68ad9f1d4944c198d79cf7684633e9b1f6734321ff123bcb63bc42788971adc7",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/check_wraps.py",
+        "path_type": "hardlink",
+        "sha256": "48de5418b30e2c36b7b51ef9af48b82de9d85192a68d0cc397655f1b851d4ca2",
+        "sha256_in_prefix": "48de5418b30e2c36b7b51ef9af48b82de9d85192a68d0cc397655f1b851d4ca2",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/open_memory_channel.py",
+        "path_type": "hardlink",
+        "sha256": "21a8aee3b0abb7d6c4dd093b79c8a0add2c281c15d998eb45f1e5df1dc617b7d",
+        "sha256_in_prefix": "21a8aee3b0abb7d6c4dd093b79c8a0add2c281c15d998eb45f1e5df1dc617b7d",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/path.py",
+        "path_type": "hardlink",
+        "sha256": "ea49fe56757e8c7de09179a2cc306f9020aba1c1f9126c5f4a0e43ad5490ae20",
+        "sha256_in_prefix": "ea49fe56757e8c7de09179a2cc306f9020aba1c1f9126c5f4a0e43ad5490ae20",
+        "size_in_bytes": 5832
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/raisesgroup.py",
+        "path_type": "hardlink",
+        "sha256": "f189c3c34f7379577636d33015da7527d7d4bd04885733a35c15e7fa40a1eddc",
+        "sha256_in_prefix": "f189c3c34f7379577636d33015da7527d7d4bd04885733a35c15e7fa40a1eddc",
+        "size_in_bytes": 7794
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/subprocesses.py",
+        "path_type": "hardlink",
+        "sha256": "2db8bfbc369b21c5a0f1559a786355b1b2809395a0fa897e02c060941faccbdd",
+        "sha256_in_prefix": "2db8bfbc369b21c5a0f1559a786355b1b2809395a0fa897e02c060941faccbdd",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tests/type_tests/task_status.py",
+        "path_type": "hardlink",
+        "sha256": "3e812f0222fec645ce80d28345dacd735e4e1bd5fbf3097bfbfd8f63a839f5c2",
+        "sha256_in_prefix": "3e812f0222fec645ce80d28345dacd735e4e1bd5fbf3097bfbfd8f63a839f5c2",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "Lib/site-packages/trio/_threads.py",
+        "path_type": "hardlink",
+        "sha256": "b68a5a0ba29e4447193072567ad7f47d81987f76d0281277bbb6aba4ea5dfc33",
+        "sha256_in_prefix": "b68a5a0ba29e4447193072567ad7f47d81987f76d0281277bbb6aba4ea5dfc33",
+        "size_in_bytes": 24202
+      },
+      {
+        "_path": "Lib/site-packages/trio/_timeouts.py",
+        "path_type": "hardlink",
+        "sha256": "c17d11599561876c54ef0ebb4d472b89740ae55a5e5c15092d4a9e7c12c37532",
+        "sha256_in_prefix": "c17d11599561876c54ef0ebb4d472b89740ae55a5e5c15092d4a9e7c12c37532",
+        "size_in_bytes": 6222
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "60d9c9d1604bc2288208ec6df47d859a9545789c45111ca9fb756a63fe248720",
+        "sha256_in_prefix": "60d9c9d1604bc2288208ec6df47d859a9545789c45111ca9fb756a63fe248720",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/__pycache__/gen_exports.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6e22a3206d2e6714172efd0800158e149343fc11f4a591c8e877dc987e13992",
+        "sha256_in_prefix": "e6e22a3206d2e6714172efd0800158e149343fc11f4a591c8e877dc987e13992",
+        "size_in_bytes": 13758
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/__pycache__/mypy_annotate.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca250bac2fb965326ad0ac6063d084ccd911c2b8179114c25e381a089ab0af1d",
+        "sha256_in_prefix": "ca250bac2fb965326ad0ac6063d084ccd911c2b8179114c25e381a089ab0af1d",
+        "size_in_bytes": 5770
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/__pycache__/sync_requirements.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb9e85e21fad94902b5d9071a76a1faa96115a69cad2803c22c4968247e33a2a",
+        "sha256_in_prefix": "fb9e85e21fad94902b5d9071a76a1faa96115a69cad2803c22c4968247e33a2a",
+        "size_in_bytes": 3866
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/__pycache__/windows_ffi_build.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "eefbd9af16655255c851b14eb7d14b8e3ba98fa20182c044641009fd9c19b95b",
+        "sha256_in_prefix": "eefbd9af16655255c851b14eb7d14b8e3ba98fa20182c044641009fd9c19b95b",
+        "size_in_bytes": 5595
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/gen_exports.py",
+        "path_type": "hardlink",
+        "sha256": "95aa3f98f52398bb111ee2ec0ce0403b363f7fa270819057f297f596893eaf0a",
+        "sha256_in_prefix": "95aa3f98f52398bb111ee2ec0ce0403b363f7fa270819057f297f596893eaf0a",
+        "size_in_bytes": 11614
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/mypy_annotate.py",
+        "path_type": "hardlink",
+        "sha256": "0cc894bea8207ea4fca1a0bcfa70a1fb0cb0c55e810bde47df50313e4d127acb",
+        "sha256_in_prefix": "0cc894bea8207ea4fca1a0bcfa70a1fb0cb0c55e810bde47df50313e4d127acb",
+        "size_in_bytes": 3998
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/sync_requirements.py",
+        "path_type": "hardlink",
+        "sha256": "25e8389189caa49f4e47d4a0fb99f079dcc10d016a0c284fdb2180e2a90281ac",
+        "sha256_in_prefix": "25e8389189caa49f4e47d4a0fb99f079dcc10d016a0c284fdb2180e2a90281ac",
+        "size_in_bytes": 3175
+      },
+      {
+        "_path": "Lib/site-packages/trio/_tools/windows_ffi_build.py",
+        "path_type": "hardlink",
+        "sha256": "348f11626fb3cbe8eab5e600ad52ced18eb95de78ed04168a0de9511ba0a62eb",
+        "sha256_in_prefix": "348f11626fb3cbe8eab5e600ad52ced18eb95de78ed04168a0de9511ba0a62eb",
+        "size_in_bytes": 5561
+      },
+      {
+        "_path": "Lib/site-packages/trio/_unix_pipes.py",
+        "path_type": "hardlink",
+        "sha256": "1358e2985ca285c15b47767924f8853d8101be7762b7c7b14d500437a6130282",
+        "sha256_in_prefix": "1358e2985ca285c15b47767924f8853d8101be7762b7c7b14d500437a6130282",
+        "size_in_bytes": 8236
+      },
+      {
+        "_path": "Lib/site-packages/trio/_util.py",
+        "path_type": "hardlink",
+        "sha256": "2f1e5bd679022da2e6ef6f8284be22e680b95ea9fdce5913777159c5d9c28321",
+        "sha256_in_prefix": "2f1e5bd679022da2e6ef6f8284be22e680b95ea9fdce5913777159c5d9c28321",
+        "size_in_bytes": 13694
+      },
+      {
+        "_path": "Lib/site-packages/trio/_version.py",
+        "path_type": "hardlink",
+        "sha256": "8bb5cecfad195e30dafd919aac3c7d69ce61e73108412cb25588a31140af79c1",
+        "sha256_in_prefix": "8bb5cecfad195e30dafd919aac3c7d69ce61e73108412cb25588a31140af79c1",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "Lib/site-packages/trio/_wait_for_object.py",
+        "path_type": "hardlink",
+        "sha256": "9e19a61c727ba2803cd2e550c0da8e9215747d261a07302e288d20e0551a6c8c",
+        "sha256_in_prefix": "9e19a61c727ba2803cd2e550c0da8e9215747d261a07302e288d20e0551a6c8c",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "Lib/site-packages/trio/_windows_pipes.py",
+        "path_type": "hardlink",
+        "sha256": "c6d26ee8d85b0eff5ec285c24dc21f354b8bea4119501e3bc0e6854b4b31ebc6",
+        "sha256_in_prefix": "c6d26ee8d85b0eff5ec285c24dc21f354b8bea4119501e3bc0e6854b4b31ebc6",
+        "size_in_bytes": 4855
+      },
+      {
+        "_path": "Lib/site-packages/trio/abc.py",
+        "path_type": "hardlink",
+        "sha256": "371ef887a4bad10435ff397b1100e14556872bbef6a1d2f5a3c9cfb6249cffc8",
+        "sha256_in_prefix": "371ef887a4bad10435ff397b1100e14556872bbef6a1d2f5a3c9cfb6249cffc8",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "Lib/site-packages/trio/from_thread.py",
+        "path_type": "hardlink",
+        "sha256": "82d4a51803a493fa64f1087840b3552a0027756226bccb058e6a95b39b63d81f",
+        "sha256_in_prefix": "82d4a51803a493fa64f1087840b3552a0027756226bccb058e6a95b39b63d81f",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "Lib/site-packages/trio/lowlevel.py",
+        "path_type": "hardlink",
+        "sha256": "9c76942ed2d9969bfbfd0b4d42d6652a0f617df23b201f7047ad8eabccd32e28",
+        "sha256_in_prefix": "9c76942ed2d9969bfbfd0b4d42d6652a0f617df23b201f7047ad8eabccd32e28",
+        "size_in_bytes": 3583
+      },
+      {
+        "_path": "Lib/site-packages/trio/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/trio/socket.py",
+        "path_type": "hardlink",
+        "sha256": "8abe2489ac2dfff6ef1bdbc2df192ba5164ee4651725faa27438940861ef99c2",
+        "sha256_in_prefix": "8abe2489ac2dfff6ef1bdbc2df192ba5164ee4651725faa27438940861ef99c2",
+        "size_in_bytes": 23392
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6e7141b66979773600c31da864c2aeb0a73539dae867f6b8d25103d11ea77ff7",
+        "sha256_in_prefix": "6e7141b66979773600c31da864c2aeb0a73539dae867f6b8d25103d11ea77ff7",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "db0a15708e819926f90f28b440de44e3518d78535852c89827f722a2a490e917",
+        "sha256_in_prefix": "db0a15708e819926f90f28b440de44e3518d78535852c89827f722a2a490e917",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/_check_streams.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b9f0a04cbac9f21726b52c7f150329ad1f6f90df7b243b08423c07726abfd1c",
+        "sha256_in_prefix": "8b9f0a04cbac9f21726b52c7f150329ad1f6f90df7b243b08423c07726abfd1c",
+        "size_in_bytes": 40183
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/_checkpoints.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fc33779120d73062561bd43b43cf8b827e391c2952ae4013aff44172c723fab",
+        "sha256_in_prefix": "7fc33779120d73062561bd43b43cf8b827e391c2952ae4013aff44172c723fab",
+        "size_in_bytes": 2754
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/_fake_net.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "52cbf95a4b28d114e7baf7446365c88472190059c447a8052ce03074feabc32b",
+        "sha256_in_prefix": "52cbf95a4b28d114e7baf7446365c88472190059c447a8052ce03074feabc32b",
+        "size_in_bytes": 27027
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/_memory_streams.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "10a1951425045a7d20b4b91186fe136ee370a391f73dd4edd58077b418c2db2f",
+        "sha256_in_prefix": "10a1951425045a7d20b4b91186fe136ee370a391f73dd4edd58077b418c2db2f",
+        "size_in_bytes": 30048
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/_network.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "73f113d1eefc885196b32fef720ffc3e966b96fb8932470139b512086a841d46",
+        "sha256_in_prefix": "73f113d1eefc885196b32fef720ffc3e966b96fb8932470139b512086a841d46",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/_raises_group.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "13aaac5d403af7a525eec385c9f2edc8eb4a875424d92e9c1fefaf1de7a34c0c",
+        "sha256_in_prefix": "13aaac5d403af7a525eec385c9f2edc8eb4a875424d92e9c1fefaf1de7a34c0c",
+        "size_in_bytes": 42791
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/_sequencer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "34fa8f5320e095eba842ae70130ed710cf7b10b8d547659e484b468d7fe8ba2a",
+        "sha256_in_prefix": "34fa8f5320e095eba842ae70130ed710cf7b10b8d547659e484b468d7fe8ba2a",
+        "size_in_bytes": 3976
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/__pycache__/_trio_test.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9f770b16b14887b8c724812ed3e86a0852ed48f89785a1a478f96ddf49a23c0",
+        "sha256_in_prefix": "c9f770b16b14887b8c724812ed3e86a0852ed48f89785a1a478f96ddf49a23c0",
+        "size_in_bytes": 2100
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/_check_streams.py",
+        "path_type": "hardlink",
+        "sha256": "e905f9dd365c7b9ee181f0877666de315bfe713ce332627890113322e5a367e4",
+        "sha256_in_prefix": "e905f9dd365c7b9ee181f0877666de315bfe713ce332627890113322e5a367e4",
+        "size_in_bytes": 22805
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/_checkpoints.py",
+        "path_type": "hardlink",
+        "sha256": "19825c04caeb18f56aedfd6286b146d101c7fd680408ba1eb324898fa6ef8be5",
+        "sha256_in_prefix": "19825c04caeb18f56aedfd6286b146d101c7fd680408ba1eb324898fa6ef8be5",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/_fake_net.py",
+        "path_type": "hardlink",
+        "sha256": "0083ae564d80947e862c5719d7c5a6e2f94afffbe8e34cf755b23a03b985ba4c",
+        "sha256_in_prefix": "0083ae564d80947e862c5719d7c5a6e2f94afffbe8e34cf755b23a03b985ba4c",
+        "size_in_bytes": 18284
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/_memory_streams.py",
+        "path_type": "hardlink",
+        "sha256": "7cab6202cbd158c6cad40f675b453f442307170ad1c55e6d4e96a5a752bf04f0",
+        "sha256_in_prefix": "7cab6202cbd158c6cad40f675b453f442307170ad1c55e6d4e96a5a752bf04f0",
+        "size_in_bytes": 23458
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/_network.py",
+        "path_type": "hardlink",
+        "sha256": "3cd9615d3b49060aab527c004bbc79f9d65f1940aaf1a917bede31a02b9d95d8",
+        "sha256_in_prefix": "3cd9615d3b49060aab527c004bbc79f9d65f1940aaf1a917bede31a02b9d95d8",
+        "size_in_bytes": 1171
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/_raises_group.py",
+        "path_type": "hardlink",
+        "sha256": "a000c4e9c4b654659ea60139b18ed8918bdb078654af59a091f4132c5f76b787",
+        "sha256_in_prefix": "a000c4e9c4b654659ea60139b18ed8918bdb078654af59a091f4132c5f76b787",
+        "size_in_bytes": 40782
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/_sequencer.py",
+        "path_type": "hardlink",
+        "sha256": "4b61dbc686aeafaa6e124df540fed62988cf38e0b58919f3dca13650e8624916",
+        "sha256_in_prefix": "4b61dbc686aeafaa6e124df540fed62988cf38e0b58919f3dca13650e8624916",
+        "size_in_bytes": 2772
+      },
+      {
+        "_path": "Lib/site-packages/trio/testing/_trio_test.py",
+        "path_type": "hardlink",
+        "sha256": "a769ee82e968230eb5d2ecef3f358938ef4db58f8c31ac63963697f4406e77d6",
+        "sha256_in_prefix": "a769ee82e968230eb5d2ecef3f358938ef4db58f8c31ac63963697f4406e77d6",
+        "size_in_bytes": 1386
+      },
+      {
+        "_path": "Lib/site-packages/trio/to_thread.py",
+        "path_type": "hardlink",
+        "sha256": "2ac6ea0af4902becbecc761d6b5d75b1e0e9aa1c7260bd78c07439fef6098e3b",
+        "sha256_in_prefix": "2ac6ea0af4902becbecc761d6b5d75b1e0e9aa1c7260bd78c07439fef6098e3b",
+        "size_in_bytes": 228
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "defaults/win-64::trio==0.32.0=py312haa95532_0",
+  "sha256": "47a30a5067666c3c55771f52284e328ba41177214d70e0c52770b1dc97df22b6",
+  "size": 995322,
+  "subdir": "win-64",
+  "timestamp": 1762422128000,
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/win-64/trio-0.32.0-py312haa95532_0.conda",
+  "version": "0.32.0"
+}
